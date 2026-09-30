@@ -479,42 +479,7 @@
       `;
     }).join('');
 
-    // Append Upcoming Sources Pipeline Card
-    const upcomingCardHtml = `
-      <div class="upcoming-source-card">
-        <div>
-          <div class="upcoming-header">
-            <span class="upcoming-title">
-              <span class="material-symbols-outlined" style="font-size: 18px; color: var(--color-google-blue);">add_circle</span>
-              <span>Upcoming Ingestion</span>
-            </span>
-            <span class="upcoming-badge">Pipeline Ready</span>
-          </div>
-          <p class="upcoming-desc">
-            Scraper architecture is built to ingest additional multi-channel user feedback streams dynamically:
-          </p>
-          <div class="upcoming-chips">
-            <span class="upcoming-chip">
-              <span class="material-symbols-outlined" style="font-size: 13px;">tag</span>
-              <span>Twitter / X</span>
-            </span>
-            <span class="upcoming-chip">
-              <span class="material-symbols-outlined" style="font-size: 13px;">star</span>
-              <span>Trustpilot</span>
-            </span>
-            <span class="upcoming-chip">
-              <span class="material-symbols-outlined" style="font-size: 13px;">public</span>
-              <span>Regional App Stores</span>
-            </span>
-          </div>
-        </div>
-        <div style="font-size: 0.6875rem; color: var(--text-light); margin-top: 0.5rem;">
-          Automated ingestion &amp; deduplication pipeline
-        </div>
-      </div>
-    `;
-
-    container.innerHTML = cardsHtml + upcomingCardHtml;
+    container.innerHTML = cardsHtml;
 
     // Attach click listeners to cards to filter evidence
     container.querySelectorAll('.source-platform-card').forEach(card => {
