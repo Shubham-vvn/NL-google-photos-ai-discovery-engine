@@ -44,22 +44,22 @@
         <div class="live-chips">
           <div class="chip">
             <span class="chip-dot"></span>
-            <span class="chip-label">Survey:</span>
+            <span class="chip-label">Survey: </span>
             <strong id="kpi-sample-size">31 Users</strong>
           </div>
           <div class="chip">
             <span class="chip-dot blue"></span>
-            <span class="chip-label">Public Reviews:</span>
+            <span class="chip-label">Reviews: </span>
             <strong id="kpi-scraped-count">320 Reviews</strong>
           </div>
           <div class="chip">
             <span class="chip-dot purple"></span>
-            <span class="chip-label">Sources:</span>
+            <span class="chip-label">Sources: </span>
             <strong id="kpi-sources-count">5 Platforms</strong>
           </div>
         </div>
 
-        <a href="/api/export/csv" class="btn btn-secondary" download title="Export evidence dataset as CSV">
+        <a href="/api/export/csv" class="btn btn-secondary header-export-btn" download title="Export evidence dataset as CSV">
           <span class="material-symbols-outlined btn-icon">download</span>
           <span>Export CSV</span>
         </a>
@@ -88,7 +88,7 @@
           type="text"
           id="discovery-search-input"
           class="big-search-input"
-          placeholder="Ask any discovery question... (e.g. 'What information do users forget?', 'Why do attempts fail?', 'receipts')"
+          placeholder="Ask any discovery question (e.g. 'receipts', 'failures')..."
           autocomplete="off"
         />
         <button type="button" id="search-clear-btn" class="search-clear-btn" title="Clear search" style="display: none;">

@@ -254,12 +254,14 @@ body {
    =================================================================== */
 
 .discovery-search-hero {
+  width: 100%;
   max-width: 900px;
   margin: 0.5rem auto 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .search-hero-badge {
@@ -274,11 +276,16 @@ body {
   border-radius: var(--radius-pill);
   letter-spacing: 0.05em;
   margin-bottom: 0.625rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+  text-align: center;
 }
 
 .search-sparkle-icon {
   font-size: 14px;
   color: var(--color-google-blue);
+  flex-shrink: 0;
 }
 
 .search-hero-title {
@@ -288,6 +295,11 @@ body {
   color: var(--text-main);
   letter-spacing: -0.025em;
   line-height: 1.25;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .search-hero-subtitle {
@@ -295,11 +307,17 @@ body {
   color: var(--text-muted);
   margin-top: 0.35rem;
   margin-bottom: 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 
 /* The Big Search Bar */
 .big-search-bar {
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -308,6 +326,7 @@ body {
   padding: 0.375rem 0.5rem 0.375rem 1.25rem;
   box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.07), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
 }
 
 .big-search-bar:focus-within {
@@ -330,7 +349,9 @@ body {
   font-family: var(--font-body);
   font-size: 0.9375rem;
   color: var(--text-main);
-  flex-grow: 1;
+  flex: 1 1 0%;
+  min-width: 0;
+  width: 100%;
   padding: 0.45rem 0;
 }
 
@@ -1785,78 +1806,124 @@ html, body {
     line-height: 1.35;
   }
 
-  /* Live Chips Horizontal Scrollable Strip */
+  /* Header Actions on Mobile: 2-Row Stacked Layout */
   .header-actions {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: stretch;
     gap: 0.5rem;
     width: 100%;
+    margin-top: 0.35rem;
   }
 
   .live-chips {
-    display: flex;
-    gap: 0.375rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    flex-grow: 1;
-    min-width: 0;
-    padding-bottom: 2px;
-  }
-
-  .live-chips::-webkit-scrollbar {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.35rem;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
   }
 
   .chip {
-    padding: 0.25rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    padding: 0.35rem 0.2rem;
     font-size: 0.6875rem;
-    flex-shrink: 0;
+    border-radius: var(--radius-pill);
     white-space: nowrap;
+    text-align: center;
   }
 
-  .btn-secondary {
-    padding: 0.35rem 0.65rem;
-    font-size: 0.75rem;
-    flex-shrink: 0;
+  .chip-label {
+    display: none; /* Hide verbose label on mobile: shows "🟢 31 Users", "🔵 320 Reviews", "🟣 5 Platforms" */
   }
 
-  /* Search Hero */
+  .header-export-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.45rem 1rem;
+    font-size: 0.8125rem;
+  }
+
+  /* Search Hero on Mobile */
   .discovery-search-hero {
-    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1.25rem;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .search-hero-badge {
+    font-size: 0.625rem;
+    padding: 0.2rem 0.6rem;
+    letter-spacing: 0.03em;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.3;
   }
 
   .search-hero-title {
-    font-size: 1.35rem;
-    line-height: 1.25;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    padding: 0 0.25rem;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .search-hero-subtitle {
-    font-size: 0.8125rem;
+    font-size: 0.78125rem;
+    line-height: 1.45;
+    padding: 0 0.25rem;
     margin-bottom: 1rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
   }
 
   /* Big Search Bar on Mobile */
   .big-search-bar {
-    padding: 0.3rem 0.35rem 0.3rem 0.875rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0.25rem 0.35rem 0.25rem 0.75rem;
     border-radius: var(--radius-pill);
+    overflow: hidden;
   }
 
   .big-search-icon {
-    font-size: 20px;
-    margin-right: 0.4rem;
+    font-size: 18px;
+    margin-right: 0.35rem;
+    flex-shrink: 0;
   }
 
   .big-search-input {
     font-size: 16px; /* Prevents iOS Safari auto-zoom */
     padding: 0.35rem 0;
+    flex: 1 1 0%;
+    min-width: 0;
+    width: 100%;
   }
 
   .big-search-btn {
-    padding: 0.55rem 0.85rem;
+    padding: 0.5rem 0.75rem;
     font-size: 0.75rem;
-    gap: 0.3rem;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    margin-left: 0.35rem;
+    white-space: nowrap;
   }
 
   /* Benchmark Prompt Chips Carousel */
@@ -2082,12 +2149,19 @@ html, body {
 
 /* 4. Small Mobile Screens (max-width: 480px) */
 @media (max-width: 480px) {
+  .search-hero-title {
+    font-size: 1.15rem;
+  }
+
   .big-search-btn span:last-child {
     display: none; /* Icon-only button on mobile screens to preserve typing space */
   }
 
   .big-search-btn {
-    padding: 0.55rem 0.75rem;
+    padding: 0.5rem 0.65rem;
+    min-width: 36px;
+    min-height: 36px;
+    justify-content: center;
   }
 
   .corpus-aggregate-summary {
