@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Photos · Retrieval Discovery Engine</title>
+  
+  <!-- Modern Typography & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+  <!-- Premium Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation / Header -->
+  <header class="top-nav">
+    <div class="nav-container">
+      <div class="brand-group">
+        <!-- Google Photos Iconic Pinwheel Logo -->
+        <div class="brand-logo" aria-label="Google Photos Pinwheel">
+          <svg viewBox="0 0 40 40" width="32" height="32" fill="none">
+            <path d="M20 20V6a7 7 0 1 1 7 7H20v7z" fill="#EA4335" />
+            <path d="M20 20h14a7 7 0 1 1-7 7v-7h-7z" fill="#FBBC04" />
+            <path d="M20 20v14a7 7 0 1 1-7-7h7v-7z" fill="#34A853" />
+            <path d="M20 20H6a7 7 0 1 1 7-7v7h7z" fill="#4285F4" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">
+            <span>Google Photos</span>
+            <span class="brand-divider">/</span>
+            <span class="brand-badge">Discovery Engine</span>
+          </div>
+          <p class="brand-subtitle">Product research on vague &amp; natural-memory photo retrieval breakdown</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Live Data Chips -->
+        <div class="live-chips">
+          <div class="chip">
+            <span class="chip-dot"></span>
+            <span class="chip-label">Survey:</span>
+            <strong id="kpi-sample-size">31 Users</strong>
+          </div>
+          <div class="chip">
+            <span class="chip-dot blue"></span>
+            <span class="chip-label">Public Reviews:</span>
+            <strong id="kpi-scraped-count">320 Reviews</strong>
+          </div>
+          <div class="chip">
+            <span class="chip-dot purple"></span>
+            <span class="chip-label">Sources:</span>
+            <strong id="kpi-sources-count">5 Platforms</strong>
+          </div>
+        </div>
+
+        <a href="/api/export/csv" class="btn btn-secondary" download title="Export evidence dataset as CSV">
+          <span class="material-symbols-outlined btn-icon">download</span>
+          <span>Export CSV</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+    
+    <!-- Element 0: Discovery Engine Big Search Bar -->
+    <section class="discovery-search-hero">
+      <div class="search-hero-badge">
+        <span class="material-symbols-outlined search-sparkle-icon">auto_awesome</span>
+        <span>AI-POWERED PRODUCT DISCOVERY ENGINE</span>
+      </div>
+      <h1 class="search-hero-title">Ask the Photos Retrieval Research Corpus</h1>
+      <p class="search-hero-subtitle">
+        Directly query empirical evidence across 31 survey benchmarks and 320 real-world user reviews across 5 sources
+      </p>
+
+      <!-- The Big Search Bar -->
+      <form id="discovery-search-form" class="big-search-bar" onsubmit="return false;">
+        <span class="material-symbols-outlined big-search-icon">search</span>
+        <input
+          type="text"
+          id="discovery-search-input"
+          class="big-search-input"
+          placeholder="Ask any discovery question... (e.g. 'What information do users forget?', 'Why do attempts fail?', 'receipts')"
+          autocomplete="off"
+        />
+        <button type="button" id="search-clear-btn" class="search-clear-btn" title="Clear search" style="display: none;">
+          <span class="material-symbols-outlined" style="font-size: 18px;">close</span>
+        </button>
+        <button type="submit" id="discovery-search-submit" class="big-search-btn">
+          <span class="material-symbols-outlined" style="font-size: 18px;">auto_awesome</span>
+          <span>Ask Engine</span>
+        </button>
+      </form>
+
+      <!-- Quick Benchmark Question Prompt Chips -->
+      <div class="prompt-chips-container">
+        <span class="prompt-chips-label">PM Benchmark Questions:</span>
+        <div class="prompt-chips-list">
+          <button class="prompt-chip" data-query="What information do they forget?">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: var(--color-google-red);">cancel</span>
+            <span>What do users forget?</span>
+          </button>
+          <button class="prompt-chip" data-query="What information do users remember about those photos?">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: var(--color-google-green);">psychology</span>
+            <span>What do users remember?</span>
+          </button>
+          <button class="prompt-chip" data-query="Why do those attempts fail?">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: var(--color-google-yellow);">error_outline</span>
+            <span>Why do searches fail?</span>
+          </button>
+          <button class="prompt-chip" data-query="What workarounds do they use?">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: #f97316;">alt_route</span>
+            <span>What workarounds are used?</span>
+          </button>
+          <button class="prompt-chip" data-query="receipts and screenshots">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: #0284c7;">receipt_long</span>
+            <span>Utility &amp; Receipts</span>
+          </button>
+          <button class="prompt-chip" data-query="Which opportunity areas deserve deeper user research?">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: var(--color-purple);">lightbulb</span>
+            <span>Top Opportunity Areas</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Discovery Synthesis Results Container (Expands when searched) -->
+      <div id="discovery-synthesis-container" class="synthesis-result-wrapper" style="display: none;">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Executive Element: Research Corpus & Multi-Source Intelligence -->
+    <section class="section-block corpus-sources-section" id="corpus-sources-block">
+      <div class="section-header">
+        <div>
+          <div class="badge-tag-header">
+            <span class="material-symbols-outlined" style="font-size: 14px;">dataset</span>
+            <span>MULTI-SOURCE RESEARCH GOVERNANCE</span>
+          </div>
+          <h2 class="section-title">Research Corpus by Source Platform</h2>
+          <p class="section-desc">
+            Executive breakdown of <strong id="corpus-total-highlight">320 verified public reviews</strong> collected across <strong id="corpus-platform-count-highlight">5 sources</strong> supporting empirical survey outcomes
+          </p>
+        </div>
+        <div class="corpus-aggregate-summary">
+          <div class="corpus-stat-badge">
+            <span class="corpus-stat-num" id="stat-total-reviews">320</span>
+            <span class="corpus-stat-text">Public Reviews</span>
+          </div>
+          <div class="corpus-stat-divider"></div>
+          <div class="corpus-stat-badge">
+            <span class="corpus-stat-num" id="stat-total-sources">5</span>
+            <span class="corpus-stat-text">Live Platforms</span>
+          </div>
+          <div class="corpus-stat-divider"></div>
+          <div class="corpus-stat-badge">
+            <span class="corpus-stat-num">31</span>
+            <span class="corpus-stat-text">Survey Users</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Sources Grid (Rendered by app.js) -->
+      <div class="sources-cards-grid" id="sources-cards-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Element 1: 5 Core Empirical KPIs -->
+    <section class="kpi-grid" id="kpi-strip">
+      <div class="kpi-card danger">
+        <div class="kpi-header">
+          <span class="kpi-title">Initial Search Success</span>
+          <span class="material-symbols-outlined kpi-icon">search_off</span>
+        </div>
+        <div class="kpi-value" id="kpi-success-rate">12.9%</div>
+        <div class="kpi-caption"><strong>87.1% fail</strong> on their first attempt using app search</div>
+        <div class="kpi-bar"><div class="kpi-fill danger" style="width: 12.9%;"></div></div>
+      </div>
+
+      <div class="kpi-card warning">
+        <div class="kpi-header">
+          <span class="kpi-title">Forget Exact Dates</span>
+          <span class="material-symbols-outlined kpi-icon">calendar_today</span>
+        </div>
+        <div class="kpi-value" id="kpi-forgotten-dates">74.2%</div>
+        <div class="kpi-caption">23 of 31 users explicitly forget timestamps &amp; dates</div>
+        <div class="kpi-bar"><div class="kpi-fill warning" style="width: 74.2%;"></div></div>
+      </div>
+
+      <div class="kpi-card primary">
+        <div class="kpi-header">
+          <span class="kpi-title">Timeline Scroll Fallback</span>
+          <span class="material-symbols-outlined kpi-icon">swipe_vertical</span>
+        </div>
+        <div class="kpi-value" id="kpi-scrolling-fallback">71.0%</div>
+        <div class="kpi-caption">Resort to manual timeline scrolling when search fails</div>
+        <div class="kpi-bar"><div class="kpi-fill primary" style="width: 71%;"></div></div>
+      </div>
+
+      <div class="kpi-card info">
+        <div class="kpi-header">
+          <span class="kpi-title">Extended Search (&ge; 5 min)</span>
+          <span class="material-symbols-outlined kpi-icon">timer</span>
+        </div>
+        <div class="kpi-value" id="kpi-time-waste">61.3%</div>
+        <div class="kpi-caption">19 of 31 users spend 5 to 30+ minutes or completely fail</div>
+        <div class="kpi-bar"><div class="kpi-fill info" style="width: 61.3%;"></div></div>
+      </div>
+
+      <div class="kpi-card purple">
+        <div class="kpi-header">
+          <span class="kpi-title">Depressed Confidence</span>
+          <span class="material-symbols-outlined kpi-icon">sentiment_dissatisfied</span>
+        </div>
+        <div class="kpi-value" id="kpi-confidence-rate">64.5%</div>
+        <div class="kpi-caption">Rate search confidence at &le; 3/5 stars after initial query</div>
+        <div class="kpi-bar"><div class="kpi-fill purple" style="width: 64.5%;"></div></div>
+      </div>
+    </section>
+
+    <!-- Element 2: The 6 Core Discovery Charts -->
+    <section class="section-block">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Discovery Charts: Where Retrieval Breaks Down</h2>
+          <p class="section-desc">Empirical findings from 31 survey respondents and 124 real-world public complaints</p>
+        </div>
+        <div class="chart-legend-badge">
+          <span class="dot-indicator"></span> Grounded in data.txt &amp; Play Store Reviews
+        </div>
+      </div>
+
+      <div class="charts-grid">
+        <!-- Chart 1: Human Memory Mismatch -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">1. Memory Mismatch: Context vs. Metadata</h3>
+              <p class="chart-subtitle">What users remember (episodic cues) vs what they forget (rigid index fields)</p>
+            </div>
+            <span class="badge badge-accent">Core Gap</span>
+          </div>
+          <div class="chart-container" id="chart-memory-mismatch">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight">
+            <span class="material-symbols-outlined insight-icon">lightbulb</span>
+            <span>Users naturally recall <strong>who (45%)</strong> and <strong>where (42%)</strong>, but <strong>74% forget dates</strong> required by traditional indexing.</span>
+          </div>
+        </div>
+
+        <!-- Chart 2: First-Attempt Search Outcomes -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">2. Search Outcomes After First Attempt</h3>
+              <p class="chart-subtitle">Initial query success rate vs fallback to manual scrolling</p>
+            </div>
+            <span class="badge badge-danger">12.9% Success</span>
+          </div>
+          <div class="chart-container" id="chart-search-outcomes">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight">
+            <span class="material-symbols-outlined insight-icon">info</span>
+            <span>Only <strong>1 in 8 searches succeeds</strong> immediately. <strong>45.2%</strong> fall back directly to manual timeline scrolling.</span>
+          </div>
+        </div>
+
+        <!-- Chart 3: Search Duration & Time Waste -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">3. Time Spent Locating a Target Photo</h3>
+              <p class="chart-subtitle">Distribution of search duration before finding or giving up</p>
+            </div>
+            <span class="badge badge-warning">61.3% &ge; 5 Mins</span>
+          </div>
+          <div class="chart-container" id="chart-search-duration">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight">
+            <span class="material-symbols-outlined insight-icon">schedule</span>
+            <span>Over <strong>61% of users</strong> spend 5+ minutes in high cognitive friction; 6.5% fail to locate the memory completely.</span>
+          </div>
+        </div>
+
+        <!-- Chart 4: Hardest Media Types to Retrieve -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">4. Hardest Content Types to Retrieve</h3>
+              <p class="chart-subtitle">Utility media (documents, receipts, screenshots) vs personal photos</p>
+            </div>
+            <span class="badge badge-info">Utility Media #1</span>
+          </div>
+          <div class="chart-container" id="chart-hardest-media">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight">
+            <span class="material-symbols-outlined insight-icon">receipt_long</span>
+            <span><strong>Utility media (documents 22.6%, screenshots 12.9%)</strong> causes the highest retrieval friction, exceeding personal portraits.</span>
+          </div>
+        </div>
+
+        <!-- Chart 5: Scraped Real Evidence Breakdown -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">5. Cross-Platform Evidence Breakdown</h3>
+              <p class="chart-subtitle" id="chart5-subtitle">320 verified reviews across 5 source platforms</p>
+            </div>
+            <div class="chart-segmented-control" id="chart5-view-toggle">
+              <button class="toggle-btn active" data-view="platform">By Source (5)</button>
+              <button class="toggle-btn" data-view="category">By Pain Point</button>
+            </div>
+          </div>
+          <div class="chart-container" id="chart-scraped-distribution">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight" id="chart5-insight">
+            <span class="material-symbols-outlined insight-icon">forum</span>
+            <span id="chart5-insight-text">Cross-platform volume: <strong>Apple App Store (190)</strong>, <strong>Google Play (109)</strong>, <strong>Reddit (13)</strong>, <strong>Community (5)</strong>, and <strong>Usability Lab (3)</strong>.</span>
+          </div>
+        </div>
+
+        <!-- Chart 6: User Search Confidence Rating -->
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <h3 class="chart-title">6. User Confidence in Photo Search</h3>
+              <p class="chart-subtitle">Confidence score (1 to 5 stars) in locating a photo after initial search</p>
+            </div>
+            <span class="badge badge-purple">64.5% &le; 3 Stars</span>
+          </div>
+          <div class="chart-container" id="chart-confidence-distribution">
+            <!-- Rendered by app.js -->
+          </div>
+          <div class="chart-insight">
+            <span class="material-symbols-outlined insight-icon">psychology</span>
+            <span><strong>64.5% of users</strong> express low or hesitant confidence (&le; 3/5) in current search capabilities.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Element 3: Scraped Real-World Evidence Explorer -->
+    <section class="section-block" id="evidence-explorer-block">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Scraped Public Evidence &amp; User Voices</h2>
+          <p class="section-desc">Verbatim reviews from Apple App Store, Google Play Store, Reddit, and Google Photos Community</p>
+        </div>
+        <div class="evidence-search-box">
+          <span class="material-symbols-outlined">search</span>
+          <input type="text" id="evidence-filter-input" placeholder="Filter reviews (e.g. receipt, scroll, wedding, dog)..." />
+        </div>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="evidence-tabs" id="evidence-category-tabs">
+        <button class="tab-btn active" data-category="all">
+          <span>All Evidence</span>
+          <span class="tab-count" id="tab-count-all">320</span>
+        </button>
+        <button class="tab-btn" data-category="app_store">
+          <span>🍏 Apple App Store</span>
+          <span class="tab-count" id="tab-count-appstore">190</span>
+        </button>
+        <button class="tab-btn" data-category="play_store">
+          <span>🤖 Google Play</span>
+          <span class="tab-count" id="tab-count-playstore">109</span>
+        </button>
+        <button class="tab-btn" data-category="reddit">
+          <span>💬 Reddit</span>
+          <span class="tab-count" id="tab-count-reddit">13</span>
+        </button>
+        <button class="tab-btn" data-category="community">
+          <span>👥 Google Support</span>
+          <span class="tab-count" id="tab-count-community">5</span>
+        </button>
+        <button class="tab-btn" data-category="usability_lab">
+          <span>🔬 Usability Lab</span>
+          <span class="tab-count" id="tab-count-lab">3</span>
+        </button>
+        <button class="tab-btn" data-category="search_failure">
+          <span>🔍 Search Failures</span>
+          <span class="tab-count" id="tab-count-search">189</span>
+        </button>
+        <button class="tab-btn" data-category="manual_scrolling">
+          <span>📜 Manual Scrolling</span>
+          <span class="tab-count" id="tab-count-scroll">75</span>
+        </button>
+        <button class="tab-btn" data-category="time_waste">
+          <span>⏰ Time Waste</span>
+          <span class="tab-count" id="tab-count-timewaste">34</span>
+        </button>
+        <button class="tab-btn" data-category="utility_media">
+          <span>📄 Utility Media</span>
+          <span class="tab-count" id="tab-count-utility">31</span>
+        </button>
+        <button class="tab-btn" data-category="memory_mismatch">
+          <span>🧠 Memory Mismatch</span>
+          <span class="tab-count" id="tab-count-memory">32</span>
+        </button>
+      </div>
+
+      <!-- Evidence Cards Feed -->
+      <div class="evidence-feed" id="evidence-feed-container">
+        <!-- Rendered by app.js -->
+        <div class="loading-state">
+          <span class="material-symbols-outlined spin">sync</span>
+          <span>Loading verified evidence reviews...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Element 4: Top Strategic Product Opportunities -->
+    <section class="section-block">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Strategic Opportunity Areas for Google Photos</h2>
+          <p class="section-desc">Evidence-backed product focus areas for PM research (Discover problem before designing solution)</p>
+        </div>
+      </div>
+
+      <div class="opportunities-grid" id="opportunities-container">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="/js/app.js"></script>
+</body>
+</html>

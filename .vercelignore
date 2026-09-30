@@ -1,0 +1,40 @@
+# =======================================================
+# Vercel Deployment Ignore Configuration
+# =======================================================
+
+# Exclude raw data notes and input documents explicitly requested
+data.txt
+problemStatemt.txt
+problemStatement.txt
+
+# Non-runtime documentation and planning artifacts (reduces bundle size)
+README.md
+architecture.md
+implementationPlan.md
+edgecases.md
+problemStatement.md
+render.yaml
+stitch_photo_retrieval_discovery_engine/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+!*.env.example
+
+# Git metadata
+.git/
+.gitignore
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# SQLite temporary runtime lock files
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm

@@ -1,0 +1,4219 @@
+[
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=2865fbd1-e82d-4490-a7d9-5f4df1482d6d",
+    "source_date": "2026-08-08",
+    "original_text": "Search doesn't work like it used to, so it kind of makes this app worthless to me! With nearly 60k photos I can no longer search for SOME family and friends names in label descriptions I've make over many years, very frustrating. I've contaced google and they cannot find a resolution! Oh, and also something new, the app actually erases what I type on the description! I have to remember to copy text so I can cut and paste, or I have to retype everything!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "remember"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find",
+      "cannot find",
+      "search doesn't work"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, time_waste, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.8,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "J Thomas",
+      "score": 1,
+      "thumbsUp": 8,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "search_failure",
+        "time_waste",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find",
+          "cannot find",
+          "search doesn't work"
+        ],
+        "time_waste": [
+          "frustrat"
+        ],
+        "memory_mismatch": [
+          "remember"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f38f4a2f-7eb0-453b-a273-47075e4d5460",
+    "source_date": "2025-06-14",
+    "original_text": "Their is a lot to like about the photo app. the editing tools are great and very easy to use. The new AI edits are quite impressive. However, facial recognition! This used to work well but has become a complete mess recently to the point it's useless to even try and search by name. Random people in backgrounds are being assigned key family members. It ignores 50% of the people clearly in the foreground. And there is no way to manually assign people to help fix errors, Apart from remove photo.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, manual_scrolling, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.8,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Chris Hatfield-Lee",
+      "score": 2,
+      "thumbsUp": 3950,
+      "version": "7.32.0.765953717",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ],
+        "manual_scrolling": [
+          "manually"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=6ae082ad-60ec-472d-89c6-d4a1999067c2",
+    "source_date": "2026-07-17",
+    "original_text": "The latest forced update has totally ruined the interface and usability. I pay for additional storage and have over 20,000 photos stored, and have always been able to set all thumbnails the same size which is essential to be able to scroll through lots of photos. Now every few rows there is a random photo 6 times the size of the rest. This change is pointless and makes it much harder to find the photo I want. I may need to find another app and pay for storage elsewhere",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, manual_scrolling, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.8,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Patrick James",
+      "score": 2,
+      "thumbsUp": 26,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "manual_scrolling": [
+          "scroll",
+          "scroll through"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3d80bfdb-7b6f-4b5a-9b8c-3a89bb90615d",
+    "source_date": "2024-12-05",
+    "original_text": "I HATE the new organization of Collections. Now I have to click through multiple menus to find my folders, it takes longer and I don't want or need it. I also wish I could default to open on my Device folders which is what I use the most. I do not care about Memories. I hate the pop-ups that constantly ask me to back up my photos (which I do not want to do). This app gets worse and worse with every update. At least allow us to customize our default view! Please!!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Alicia Perez",
+      "score": 3,
+      "thumbsUp": 2556,
+      "version": "7.9.0.700107295",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=dc40fa6f-05fe-43fa-8899-2f48bfa5ee59",
+    "source_date": "2025-10-15",
+    "original_text": "This app is practically unusable anymore. The search engine doesn't ever freaking work when trying to find a specific photo, Even on Wi-Fi the page loads slow when trying to find a picture(Or doesn't load at all), It still doesn't have an option to where it can just save all of your photos/videos into albums without having to manually create them again. I'm only giving this 2 stars because it's one of the only ways that I know to backup my device photos without having to use a PC.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "J.J. Wonder",
+      "score": 2,
+      "thumbsUp": 5587,
+      "version": "7.48.0.813334473",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ],
+        "manual_scrolling": [
+          "manually"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=e48f580e-9687-4819-ada1-9814a4131e2b",
+    "source_date": "2026-02-17",
+    "original_text": "Service has steadily declined for years now. Lots of features just completely don't work, for example saving a new frame from a motion photo. They removed the ability to search your photos if they aren't backed up. The cherry on top is recently they added an effect to your memories so that a large number comes in and shows you how many years it's been, unfortunately this new effect has ruined to quality of every single photo it shows. I really don't know how some of this leaves beta.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Justin Wren",
+      "score": 2,
+      "thumbsUp": 361,
+      "version": "7.61.0.860908034",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=be430887-186c-448a-9e15-c01d77128978",
+    "source_date": "2026-09-15",
+    "original_text": "Not intuitive for digital art, which most of my pictures are. The Memories and Face Recognition and such only pay attention to the (very few) actual photos and thus are not helpful. AI tools are trash. If this app wasn't conveniently synced to my Google account I would uninstall and find something else. Also, make the \"folders\" button easier to get to, and then STOP MOVING IT AROUND! And stop rearranging the order of the *comic panels* in my *album*.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Caroline Russell",
+      "score": 2,
+      "thumbsUp": 7,
+      "version": "7.92.0.980155911",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=6dbbe3c7-21d6-4e60-9cab-a0321bcecade",
+    "source_date": "2026-08-21",
+    "original_text": "Fix Google Photos, PLZZZZ! It used to be my favorite, GO TO for photos until a few weeks ago. I'm an artist, photographer, and major ADHD - I have come to rely on GP so much it's almost 2nd skin, and saved me so much time & hassle.Now, I can't even find all of my photos, albums, etc. Most 🤬 is not being able to just pull up a photo and attach or insert anywhere. Just spent over 1 hr trying to find a photo I had taken of an order that the seller asked for me to upload a pic. (Still can't)",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "CJ Hannah",
+      "score": 3,
+      "thumbsUp": 4,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "time_waste": [
+          "spent"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3a174791-a030-4f27-9ae5-5f43a6778260",
+    "source_date": "2026-07-10",
+    "original_text": "Why can I download some stuff and other stuff, no. It'll just say downloading when I click on it but nothing. Sometimes I'll get a notification like 30 minutes later saying unsuccessful but it's completely random. I don't know why, there's no clues. it's annoying as hell. It can be the same batch of videos from the same day of the same thing, same album. Let's say out of 10, only 7 will download. The others are in some weird download purgatory. At least on mobile.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 3-star review matching: time_waste, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jared",
+      "score": 3,
+      "thumbsUp": 28,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "time_waste",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "minutes"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=5588dac1-6b61-46ea-8d37-2871a28182c5",
+    "source_date": "2026-08-20",
+    "original_text": "This app continues to get enshitified. In 2026 I thought I could send an album to Google photos without any issues but that's not supported. Instead, I selected each individual image and uploaded them thinking they'd be easy to find under recently uploaded. They were not. They were mixed in with my thousands of other pictures, which I'm obviously not going to look through. I'm just going to use another platform to make an album in the cloud. Crazy Google photos can no longer do that with ease.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Tiffany McElroy",
+      "score": 2,
+      "thumbsUp": 6,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "manual_scrolling": [
+          "look through"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=37aa9ab3-cd5c-402a-99e1-bd592005552b",
+    "source_date": "2026-07-14",
+    "original_text": "In the more section of the app, I can no longer send, print, email, etc. I have tried everything. Every time i download photos from google messages, it doesn't go in the same day I downloaded it. It downloads whatever month or year they took the photo, which is annoying. It takes take me forever to find it. Every update it gets worse. Are you listening to what people are telling you. Stop sending us links to try to fix the problem you caused. That's what you get paid for.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "lucy simmons",
+      "score": 1,
+      "thumbsUp": 26,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "time_waste": [
+          "forever"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f56fd34f-8245-4e94-a3af-4bd90de0c3f5",
+    "source_date": "2026-08-18",
+    "original_text": "Just Terrible for the Users. No adjustments can be made for my convenience. It's the Apps way or No Way! can't delete from Google storage from the app, and just a crazy incomprehensible organization of photos and videos. This is what happens in Monopolies. They only care about franchising your data, not catering to your needs. ask yourself, when was the last time this app made finding my pics easier without paying a privacy price? Never is my answer.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "when was"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Thats Bill",
+      "score": 1,
+      "thumbsUp": 10,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "memory_mismatch": [
+          "when was"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f9a22bcf-8b9b-41ad-89f7-a9294e2d8817",
+    "source_date": "2026-08-16",
+    "original_text": "I'm so flipping frustrated, every time I take a photo a little too similar to the last one or hold down the button, it stacks them. And every time I look for a button to unstack it, I can either never find it or it doesn't exist. it takes up so much storage; Please fix this, I press every button on that photo, and even the stack itself and I can't fix it. Also, I just don't want the usage of ai on a photo app, it's unnecessary and I wish I could disable it.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Ghost Girl",
+      "score": 2,
+      "thumbsUp": 9,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=251ae6e9-ec6b-4aa6-94d1-e7821b4319a8",
+    "source_date": "2026-08-23",
+    "original_text": "Changes in app aren't reflected in Google photos on desktop. I only used the app because I can't see stacks of photos in the browser version. I thought this would be a good way to find and remove duplicate photos, since Google still does not have a duplicate removal tool. (I assume that this is because they want us to waste space in our accounts, so we have to pay for it.) After using the app on my Chromebook, I was disgusted to find that none of the photos I'd removed had actually been deleted.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "J Ben",
+      "score": 2,
+      "thumbsUp": 9,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "manual_scrolling": [
+          "browse"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f97721a8-d277-4db3-a241-bb0d27722830",
+    "source_date": "2026-07-29",
+    "original_text": "Why have thumbnails of different sizes for photos. I dictate which of my pics are important, NOT Google. Even then, I want an easily browsable system, not a social media wannabe with useless \"Remix\" and \"Memories\" features. Just be the damned file system you are supposed to be. Can't even swipe to select multiple anymore. Also, there is not an option to have your photos ONLY on device. No, I don't need to pay for more Google One storage when my phone has 300 free gigs left for photos and videos.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Erik Venderbush",
+      "score": 1,
+      "thumbsUp": 24,
+      "version": "7.85.0.952162352",
+      "findings_matched": [
+        "manual_scrolling",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "swipe"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9f712c43-3f31-42fd-a5e0-ab9faba6c0c6",
+    "source_date": "2026-07-20",
+    "original_text": "It's mostly good but some photos don't have my face highlighted or those of other ppl. There's no way to manually add a face so when I go to look up pictures of myself for sharing, etc. those photos aren't available and I have to scroll to find them if I don't know the date. Very inconvenient. Pleeeeeease add a manual face adding option.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jasmine Ivy",
+      "score": 3,
+      "thumbsUp": 17,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "manual_scrolling": [
+          "scroll",
+          "manually"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a5111630-c168-4497-bb97-e68c156cf5d7",
+    "source_date": "2026-07-03",
+    "original_text": "I don't know how this hasn't been addressed yet, but there has to be a way to stop the little motion preview you get while swiping through motion photos!!! Even with autoplay motion toggle off, there is still a second long preview of the motion in the photo for some reason! It's frustratingly annoying! Especially when trying to swipe through and compare multiple similar photos to see which ones are best, its so jarring that you can't even see the differences fast enough because of the motion!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Daniel Beyda",
+      "score": 1,
+      "thumbsUp": 23,
+      "version": "7.82.0.937646388",
+      "findings_matched": [
+        "manual_scrolling",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "swipe"
+        ],
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=fac36b13-cb88-4c52-b7e4-ddfa7d73025b",
+    "source_date": "2026-04-20",
+    "original_text": "Good for photo storage and searching, but it sends too many memories/themed notifications each day and there isn't an option to fine-tune this other than to disable them. I like the occasional one to look back on but the current rate is pestering. Similarly, there's a pop-up (I think about AI editing of something? I dismiss it because I want to 👏 look 👏 at 👏 my 👏 photos when I open the app) that holds up using the app for what it's for. it's gotten pretty irritating to use.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Kat Willoughby",
+      "score": 3,
+      "thumbsUp": 56,
+      "version": "7.72.0.900772179",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=586c10e9-9c09-4447-beee-6da1097cca7f",
+    "source_date": "2026-03-07",
+    "original_text": "Used to be a good, March update ruined it. Moved all the editing options. onto different categories, no makes little sense. won't let you re-edit a photo you've already edited. instead makes you revert to original and do all the work again if you want to re-crop or similar. once you then save a copy that becomes almost impossible to find. doesn't get out next to the original or at the top of the gallery like before. only found mine in recently added, which obviously, they are not, Just edited.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Graham Kavanagh (Kav)",
+      "score": 2,
+      "thumbsUp": 76,
+      "version": "7.66.0.876414181",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "time_waste": [
+          "impossible"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=62db9478-859f-4268-ba13-7f56ac143998",
+    "source_date": "2025-10-09",
+    "original_text": "I've been thinking about writing a review since the change in the way I can edit my own photos, but I thought it'd be fine. It's not. This sucks. Google lens is no longer in the suggested actions at the bottom, instead you have to tap on the three dots in the upper right corner, which is just unnecessary and annoying. The editor is actually trash now, like I'd rather download an extra app to edit/crop my pics and everytime I want to look through my albums it opens the search function.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "search function"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jordan Wolf",
+      "score": 1,
+      "thumbsUp": 9157,
+      "version": "7.48.0.813334473",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "search function"
+        ],
+        "manual_scrolling": [
+          "look through"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=26476128-9573-4e06-a9bd-a4382bb4fe1a",
+    "source_date": "2025-06-09",
+    "original_text": "They added search to the Add To Album popup! Someone *is* reading all those feedbacks I send!!! Easy backup of photos and videos. Nice interface for browsing photos and videos. Sometimes fails or errors out, but not too bad. Video creator is mostly automatic but I like the amount of tweaking it provides (adjusting music, filter, and titles).",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 5-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "David",
+      "score": 5,
+      "thumbsUp": 30256,
+      "version": "7.31.0.764984055",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ],
+        "manual_scrolling": [
+          "browsing"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bd1afa26-2281-4093-a462-b9b6f1f4f0b5",
+    "source_date": "2025-02-23",
+    "original_text": "Loved Google Photos. Always demonstrating to people how easy it was to find a photo i.e. 'Dog in a hat'. Now the search has changed to AI and it's terrible. Even changing to classic, the same search will show your photo briefly, then change to 'Nothing found' or a huge list of random garbage. I cannot search anything. So sad. I have thousands of photos in storage. Google was my end all, be all.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Sabrina Absher",
+      "score": 2,
+      "thumbsUp": 2333,
+      "version": "7.17.0.728464545",
+      "findings_matched": [
+        "search_failure",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9bf5689f-66c3-4ea9-b529-9718dc4fc96d",
+    "source_date": "2024-10-25",
+    "original_text": "My favorites on my Motorola keep getting removed from that folder for no reason! This is the second time it has happened and as an artist, i use the favorites folder to save my references from my screenshots as a shortcut. It's irritating everytime it happens because then i have to spend an hour diving into the ocean of my almost 4k screenshots to find the reference im looking for. Fix it!!! PS: Please make it to where i can create my own folders, and stop trying to force me to turn on backup!!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "SkyOnTrack Plays!",
+      "score": 3,
+      "thumbsUp": 809,
+      "version": "7.4.0.687342855",
+      "findings_matched": [
+        "search_failure",
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "utility_media": [
+          "screenshot"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=2d623efd-0948-4012-9181-9ed640859eb9",
+    "source_date": "2024-09-04",
+    "original_text": "Within the past couple weeks, I'm unable to use search - all searches return no results. App no longer grabs search terms from the 'commenting' area where I label important photos or screenshots from the past. I've tried force stop, reboot, update, clear cache - no change. Concerned that clear data or uninstalling will cause photo losses. Can anyone please give me my next SAFE steps to resolve this? Thank you.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "no results"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "David S.",
+      "score": 2,
+      "thumbsUp": 690,
+      "version": "6.97.0.670633106",
+      "findings_matched": [
+        "search_failure",
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "no results"
+        ],
+        "utility_media": [
+          "screenshot"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=78e03984-5dd7-4e24-89e2-8d33fa0253b1",
+    "source_date": "2024-08-30",
+    "original_text": "You ruined a perfectly great app with your recent 2 updates. Collections? They're albums. Memories (here) useless. I don't need the reminders. You keep trying to find ways to force location and place identification. The 'on this device' ridiculous as all are ON this device. Stop the infinitely micro management.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Anados Defered",
+      "score": 1,
+      "thumbsUp": 465,
+      "version": "6.96.0.664905419",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a7c5f29b-f9e4-4c8e-85ff-e634f4d08455",
+    "source_date": "2026-08-24",
+    "original_text": "Since last update, the app messed up with my photos a lot, deleted some of my memories. Is that so hard not to delete photos that I probably have there for a reason? Separate issue, is how much that app relies on ai to create albums and sort out people. All ai features are clearly underdeveloped and forced on a user. I can give an example with the way it sorts people in albums. It considers one person, as different people and doesn't allow to manually insert photos to distinguish the person",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Ilia Kostarev",
+      "score": 1,
+      "thumbsUp": 8,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "manual_scrolling",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "manually"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=62d3d528-6a96-457b-a045-94c53a1632e7",
+    "source_date": "2026-08-13",
+    "original_text": "Please put the monthly view back to small thumbnails only. The random large photos are incredibly annoying and you can't see the chronological order clearly. Please!! - You have responded to my review but missed the point of what I am saying, we want small thumbnails in the most zoomed out view, no random large photos inserted in the view, it is so annoying and no one needs it when scrolling through large amounts of photos!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 3-star review matching: manual_scrolling, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Kelly Merrick",
+      "score": 3,
+      "thumbsUp": 7,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "manual_scrolling",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "scroll",
+          "scrolling"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=adb334f0-4f47-4a1b-8652-8697a05bec04",
+    "source_date": "2026-07-19",
+    "original_text": "Baffling UI choices continue. Want to easily find a photo from a certain date using easy visuals? Tough. It's now a homogeneous mess that just dumps all your photos together with no separation. It gives a vague date at the top, but you might have three photos in a row from two different days. Don't worry, that doesn't matter because now photos uses ✨AI✨ because of course it does.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "vague"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Colin Reid",
+      "score": 2,
+      "thumbsUp": 37,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "memory_mismatch": [
+          "vague"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=31175e77-203d-40ab-845a-83e5555f95b4",
+    "source_date": "2026-08-29",
+    "original_text": "The app is so nice as far..I even purchased storage..but it would be nice if we get the option to enlist faces manually as well because sometimes it doesn't automatically recognise faces of the photo taken either from back , side or in dim light . hence if we can manually add face it would be easier for us to find out photos based on face 🤌",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 4-star review matching: search_failure, manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Me",
+      "score": 4,
+      "thumbsUp": 10,
+      "version": "7.89.0.968035987",
+      "findings_matched": [
+        "search_failure",
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ],
+        "manual_scrolling": [
+          "manually"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=e5ea2c92-3df6-4b8e-aba2-8da13e9d3692",
+    "source_date": "2026-08-19",
+    "original_text": "Incredibly tedious, barely fit for purpose, frustratingly slow. • Often takes 30-60 seconds to change a photo's tag. • Can't manually add people or pets if Auto-tag fails. • Can't see long photo names. • Can't highlight multiple photos to re-tag, can only re-tag an entire album or one-by-one. • Can't auto-tag local media, only media uploaded to Google Photos. • Often returns to the main screen when backing out of a photo instead of album or group. Breaks workflow.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 2-star review matching: manual_scrolling, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Microwave Dave",
+      "score": 2,
+      "thumbsUp": 6,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "manual_scrolling",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "manually"
+        ],
+        "time_waste": [
+          "frustrat",
+          "tedious"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a063c498-e373-40ef-8576-598daab29f0d",
+    "source_date": "2026-09-13",
+    "original_text": "Another Google app that's becoming more and more infuriatingly unusable by the day. I love the Gemini app itself and I pay an additional fee for it, but when integrated into other Google Apps such as photos it just plain sucks. 😢 in particular search functions now terrible I can't find any photos of looking for and most of the time the deletion and creation of new photos are impossible to sync up between my iPad and my Google pixel phone. integrating Gemini into so many apps so fast seems to",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find",
+      "can't find",
+      "search function"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Samantha Sheehy",
+      "score": 3,
+      "thumbsUp": 2,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find",
+          "can't find",
+          "search function"
+        ],
+        "time_waste": [
+          "impossible"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=5392a1d0-afec-4227-8f73-b480d964c2c8",
+    "source_date": "2026-09-17",
+    "original_text": "I'm a long time, heavy user of Google Photos & an Alphabet stockholder. Until yesterday Photos took <1 second to delete photos. Last night I downloaded the latest update. Now it takes 20 seconds per photo. Will Google ever learn to not screw up something that is working perfectly well, i.e. your Search! IF IT AIN'T BROKEN, DON'T \"FIX\" IT. What is wrong with y'all??",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "John Joseph",
+      "score": 1,
+      "thumbsUp": 89,
+      "version": "7.92.0.981913704",
+      "findings_matched": [
+        "search_failure",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ],
+        "time_waste": [
+          "long time"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=784fe329-5447-4dd7-adac-687feb118885",
+    "source_date": "2026-07-31",
+    "original_text": "I used to love this app at first. Then Google started making changes and the editing tool became very frustrating. So I disabled auto updates and stripped the app back to the factory version, and this worked fine for a number of months. However, the latest Android update seems to have not only overridden the no-update instructions but also made it impossible to go back to the factory version! I'm fuming.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "time_waste",
+    "memory_clues": [
+      "trip"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Veronique Medcalf",
+      "score": 1,
+      "thumbsUp": 19,
+      "version": "7.85.0.952162352",
+      "findings_matched": [
+        "time_waste",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat",
+          "impossible"
+        ],
+        "memory_mismatch": [
+          "trip"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=df43b085-6608-434d-bf98-e4b3040db2c0",
+    "source_date": "2026-07-08",
+    "original_text": "The last time I was facing an issue where the \"Places\" folder in the collections tab would vanish from the app a few seconds after opening Google Photos. A new update has fixed that but has now broken another. It's now the \"Documents\" folder in the collections tab that keeps disappearing a few seconds after. I have never experienced issues with either the pixel or the Google photos app. It's so frustrating with no solution in sight that I might be forced to switch off to some other brand.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste, utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Franzy Mendes",
+      "score": 1,
+      "thumbsUp": 20,
+      "version": "7.82.0.937646388",
+      "findings_matched": [
+        "time_waste",
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ],
+        "utility_media": [
+          "document"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=407fb276-32b4-48f6-b825-fdf4f57c9a27",
+    "source_date": "2026-08-12",
+    "original_text": "Excellent Photo Management App! Google Photos is one of the most useful apps for safely storing, organizing, and accessing photos and videos. The automatic backup, powerful search, easy sharing, and smart organization features make it extremely convenient. I especially like how easily I can find old photos and memories by date, location, or people. Simple, reliable, and very user-friendly. Highly recommended! 👍📸",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 5-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Rajesh Sewani",
+      "score": 5,
+      "thumbsUp": 11,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=065e4772-3854-4aee-a3d6-2e9668de19d5",
+    "source_date": "2026-08-21",
+    "original_text": "love it! Google Photos has been my go to for as long as I can remember! it's got many new overhauls and totally cool additions such as AI, although AI can definitely flub some photos or assignments 😂 but for the most part it's great and free but once you get to a certain amount of photos like me.... you need to start paying monthly for storage it's really not that much thank God .. plus they have sharing and albums and they will make memories! and we can share comment and keep forever! love it",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "time_waste",
+    "memory_clues": [
+      "remember",
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 4-star review matching: time_waste, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Amy Jo Buchanan",
+      "score": 4,
+      "thumbsUp": 9,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "time_waste",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "forever"
+        ],
+        "memory_mismatch": [
+          "remember",
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=fccfe1dd-7354-4779-b42c-a769d835ee61",
+    "source_date": "2026-08-25",
+    "original_text": "UI updates make the app more confusing to navigate. I like Google photos, I pay for the storage and everything but sometimes I want my gallery app to just be a gallery app. At times it feels like I'm being forced into using the online workflows which is frustrating when all I want to do is share like 30 pictures I took today that are still on my phone. But photos can only actually share three of them at random and it just makes no sense.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo | Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: time_waste, low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Gregory Bennett",
+      "score": 2,
+      "thumbsUp": 16,
+      "version": "7.89.0.968035987",
+      "findings_matched": [
+        "time_waste",
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ],
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=fc669de5-7c8c-4bd8-a274-f7b51d5377d0",
+    "source_date": "2026-09-01",
+    "original_text": "One of the main things I really like about this app and use it for is face grouping and that is getting worse and worse. I've followed all the steps to refresh and allow the app to process the faces, but for some reason pictures with very clear faces aren't getting grouped and aren't getting registered as faces so I can't even manually add them. Please fix this, it's so frustrating. Thank you Google for your useless response, I've already tried everything and it's included in my review.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure | Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling, time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Brooke",
+      "score": 1,
+      "thumbsUp": 6,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "manual_scrolling",
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "manually"
+        ],
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9a1e075b-c040-4df6-b187-5b66f3a4fcd9",
+    "source_date": "2026-08-27",
+    "original_text": "Google Photos is an excellent app for storing, organizing, and backing up photos and videos. The search and automatic organization features are very useful, and it makes finding old memories easy. Overall, a simple, reliable, and user-friendly photo storage app. Highly recommended! 📸✨",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\") | Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "search_failure",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 5-star review matching: search_failure, memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.7,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Sohail Ahmad",
+      "score": 5,
+      "thumbsUp": 5,
+      "version": "7.89.0.968035987",
+      "findings_matched": [
+        "search_failure",
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ],
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=84e83740-a53a-447e-930c-055bc5841f1d",
+    "source_date": "2024-09-24",
+    "original_text": "Within the last 48 hours, I've probably uninstalled and reinstalled this apt close to 10 times. When the app finally backs-up photos, it's missing some (photos that are in my albums on my phone aren't showing up in app). Also when I click on a photo in the app, it opens a different picture. I'm thinking to uninstall app entirely. You'd think Google, of all software out there, could get this right!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jeloni W",
+      "score": 1,
+      "thumbsUp": 2328,
+      "version": "7.0.0.674947721",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "hours"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=03c31111-f677-4bdf-a337-354076db33ee",
+    "source_date": "2024-08-19",
+    "original_text": "the new update makes zero sense, I likes it where I was able to just watch all my albums in one go, instead now it's all folder inside of folder?! I have bad memory and can't always remember if I've backed up a photo already, or if it's still on my device, not to mention now there's a pets and people tab, which you'd think would be nice, but no! I get constant reminders of people I don't want to see anymore with photos I thought were gone! thanks a lot Google, and not in a nice way!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "remember",
+      "memory"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Bee",
+      "score": 1,
+      "thumbsUp": 901,
+      "version": "6.94.0.659749309",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "remember",
+          "memory"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=1763fba6-d23e-44ce-86c5-199ccd98a3e8",
+    "source_date": "2025-09-30",
+    "original_text": "Since the update, I can't choose separate photos for my lock screen wallpaper or main wallpaper. There is only an option for \"wallpaper\" now, which stretches and distorts the photo to fit the size of the screen! Also in order to continue editing a photo, I have to revert back to the original and edit all over again! Please go back to the original options; why do companies feel the need to constantly change everything every couple months, and not to their users' preference?? So frustrating!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Lizzi",
+      "score": 1,
+      "thumbsUp": 2470,
+      "version": "7.47.0.810631069",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9915bc29-b7bd-424c-b78d-2ab6b6b78a0b",
+    "source_date": "2025-05-28",
+    "original_text": "i really don't like this app. i don't like the 'moments' it randomly creates that can't be turned off. i don't like that albums aren't on the same level as the default categories (for example if you take a photo from the downloads category and put it in an album it still exists in the downloads category.) i don't like the facial detection grouping, it rarely works and just adds to the already messy layout. i could say more but i'm running out of characters.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "kanana",
+      "score": 1,
+      "thumbsUp": 2616,
+      "version": "7.30.0.761213354",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=fb853800-f7d4-4c6c-aa94-30548f6bfa21",
+    "source_date": "2025-09-17",
+    "original_text": "this app used to be perfect, but the quality has gone downhill. the new ai search rarely finds the photos i want in comparison to the old search where i'd find my photos every time. there's also a recent bug where adding photos to an album sometimes creates duplicates, and they are really hard to get rid of. it seems to be related to a delay when pressing the button to add a collection of photos, sometimes this hangs for like 10 seconds and i think if i press it twice i get duplicates.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Matt Handler",
+      "score": 2,
+      "thumbsUp": 1566,
+      "version": "7.44.0.803164237",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=7ad38161-0e65-4b4d-88e2-f8e58a595783",
+    "source_date": "2026-09-15",
+    "original_text": "This is a terrible app. Yet another example of Google hiding basic functionality and usability from their users, whom Google clearly doesn't care for. Prime example: a photo's details used to be easily available, from a simple menu selection, but aren't any more. And no, the swipe up doesn't bring the details up. Just looking to use my phone, Google!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Erich Friesen",
+      "score": 1,
+      "thumbsUp": 5,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "swipe"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d6276e7a-5d2b-4533-ac69-4242148d9e22",
+    "source_date": "2026-09-02",
+    "original_text": "Photos used to be the perfect photos app. it had the best search funding of any app. I used to race iphone users to see how far we could find the same photo and I always won. Now this near perfect search function has been replaced by AI, which not only doesn't return the photos I'm looking for, it actually acts as a stumbling block to me finding them. It's slow and inefficient. Another perfectly good tool ruined in the name of trying to convince us that AI is inevitable.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find",
+      "search function"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jenn Goble",
+      "score": 1,
+      "thumbsUp": 8,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find",
+          "search function"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ab69ac77-f26a-41bf-a21b-745e3b9233c8",
+    "source_date": "2026-09-14",
+    "original_text": "just leave it alone already. key moments, sticker suggestions, random photos bigger in the grid, notifications. like, dude, this is a photo gallery. not social media. store the photos, display the photos, and then leave me alone. look, go ahead, try stuff out, whatever. at least give me a toggle so i can turn this nonsense off. you harvest every byte of data from every human life and NONE of it shows that you guys are ruining things? seriously, just stop. it was fine as it was YEARS ago.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Dennis Deacon",
+      "score": 1,
+      "thumbsUp": 4,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=8cd47a60-2e99-4ec9-b1ca-f89be9835135",
+    "source_date": "2026-09-16",
+    "original_text": "I have issues uploading pics to an app, if I edit the image at all (for example, I'll take a pic and my phone likes to rotate it the wrong way) I'll rotate the image upright, but if I do that, it wont upload to the app I use for work. My workaround has been to screenshot that image, then for whatever reason, it doesn't care that I edit THAT image. I can crop, mark-up, etc and it'll upload at that point. App is Service Titan (Field).",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "utility_retrieval",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Kanoa. M",
+      "score": 1,
+      "thumbsUp": 3,
+      "version": "7.92.0.980155911",
+      "findings_matched": [
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "utility_media": [
+          "screenshot"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b934cebf-2e49-4650-8f85-09e2ed712418",
+    "source_date": "2026-08-23",
+    "original_text": "App freezes/crashes every time I go into collections. it's nearly completely unusable. I went online to find help and it's an issue other people are having but there's no workable solution and doesn't seem to be widespread enough to hope for a patch. I tried emailing the support email listed in the play store but it isn't monitored anymore because google doesn't care about users on its free services. I have tried everything I can think of but nothing helps.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Mackenna Finley (Mackennafinn)",
+      "score": 1,
+      "thumbsUp": 7,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=897711fc-0fb7-457a-b392-0328fce5eb82",
+    "source_date": "2026-08-04",
+    "original_text": "Every update the app gets worse and worse. The options less and less. And AI slop more and more. I can no longer assign faces, the primary reason I enjoyed the app. Oh but I can steal art styles from hard working artists and make a lifeless recreation of an important moment. Gee. Thanks. -_- --- I wish I had the option to delete the photos in the archive suggestions rather than have to dig around and find them and delete them. I also wish there was a way to delete duplicate images.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Aileen T",
+      "score": 1,
+      "thumbsUp": 16,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d4b8dd23-bb7f-491f-af95-99c45eb8d540",
+    "source_date": "2026-08-05",
+    "original_text": "This app DOES NOT duplicate photos, so if you plan on keeping your photos in the original app you were using, you won't. All of my albums are missing photos because they were taken and placed into google photos, once restored all the photos are mixed together. Also when the photo is \"stacked\" it only restores one photo. I have over 7,000 photos I was transferring and now everything is so disorganized and there's no easy way to fix it without spending hours trying to figure it out. I am so upset!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Rebekah",
+      "score": 1,
+      "thumbsUp": 16,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "hours"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=7dea5b50-a77c-4e60-bfcd-309acf1ece34",
+    "source_date": "2026-08-13",
+    "original_text": "My photos are disappearing. I've been using Google Photos for years and even bought extra storage, but for the past four months, I've regretted not just getting a flash drive instead. Many of my photos have vanished, including ones that were very important to me and my family. It's particularly upsetting regarding photos from when my children were younger. Given all the issues with these companies, including their hacks and overall practices, this situation is really frustrating.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jowanna Williams",
+      "score": 2,
+      "thumbsUp": 9,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a0242a34-e754-4cf6-b96f-aea164a2118e",
+    "source_date": "2026-09-01",
+    "original_text": "So annoying!! Yes I know I'm out of storage. The app completely inundates you with annoying popups, reminding you that you're out of storage, making it impossible to actually, you know, clean up space. I'm going to download all of my photos and videos off of your service, delete the app and never use it again because you annoyed me so much",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "B.A. S",
+      "score": 1,
+      "thumbsUp": 9,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "impossible"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b83d8437-28ca-4f9d-a453-36dd41556022",
+    "source_date": "2026-09-07",
+    "original_text": "The photos aren't lost, they are 6 yr old photos that are present in the Google Photos Cloud. I restored them to a phone so I may edit them and use them. Restored images are sitting on their original calendar dates instead of the top. How can you expect anyone using a photo editing app or other app to spend time scrolling through 2026 to 2020 images when they have a lot of images? It never used to be like this. Your links are not relevant to the issue. Something changed on the backend. Thanks",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Scarlet Red",
+      "score": 1,
+      "thumbsUp": 9,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "scroll",
+          "scrolling"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=24478ad8-ae32-4f50-8f3f-d98b5f706357",
+    "source_date": "2026-07-08",
+    "original_text": "Photos is forcing AI generated \"creations\" that use your photos. If you want to use the image search and ask questions about pictures, you have to have this enabled. There is no way to disable it. I have turned everything off except the AI itself so I can still image search, but it is analyzing my photos without me telling it to. And it's generating extremely ugly AI images and pinning them at the top of my gallery in giant tiles that can't be hidden... Yet another awful addition in a long line.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Ryan Williams",
+      "score": 1,
+      "thumbsUp": 78,
+      "version": "7.82.0.937646388",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ed2a682b-89da-42b1-b8ed-6654128b9c58",
+    "source_date": "2026-07-11",
+    "original_text": "Google photos is the only option my phone came with. It's been fine until this last update. Before the last update, when you opened the app your photos would be shown by month/year taken so you only needed to scroll down to see older ones. It was easy and organized. With the new update, the organization is gone. All photos/videos are now shown in a haphazard mess. Sad. This app came with the phone and cannot be deleted and replaced.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 2-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "anne pavlos",
+      "score": 2,
+      "thumbsUp": 20,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "scroll"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ee28a1ec-5357-4148-9cda-dd5a36a0197e",
+    "source_date": "2026-07-27",
+    "original_text": "Been steadily getting worse for years, dressed up as being smarter. Any setting I choose or directive I issue I mean absolutely unconditionally, but the app invents \"but I know better\" options. To be clear, devs — on a roaming mobile network of bad quality with 3% battery at silicon-melting temps, if I say to backup a 1TB file now, I mean fully saturate my upload bandwidth immediately and until the phone is dead, even if it's dead forever by my choices.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Philip Kahn",
+      "score": 2,
+      "thumbsUp": 17,
+      "version": "7.84.0.949657053",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "forever"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=63861361-6d1c-42f8-845c-0b61126bcd93",
+    "source_date": "2026-08-14",
+    "original_text": "God, I Wish there was another app I could use as my primary. This has got to be THE MOST USELESS photo managing app I've EVER seen. It needlessly splits photos up arbitrarily between seperate albums in a seemgly random order, asks me if I want to backup my photos and MANY other popups that a photo app doesn't need, EVEN AFTER SAYING NO EVERY TIME, like, I JUST want to look at my photos- nope. popup. I want to see ALL my photos? nope. randomly split between 5 seperate albums. why? who designed it",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Univa Forte",
+      "score": 1,
+      "thumbsUp": 6,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=94ec4722-0e09-4ffc-a0ee-ca9d1318e19c",
+    "source_date": "2026-08-07",
+    "original_text": "I have a problem. in the app it only shows about 1/20 of the photos and videos I actually have. buy if I go to photos in a browser it shows all of them.. this has been happening for years. I don't know how to fix it. all emails and feedback are disregarded or are ignored completely. so ive started using terracotta. one terabytes of storage free.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jeremy Harrington",
+      "score": 1,
+      "thumbsUp": 7,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "browse"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bbdfc7a1-63cb-4553-9b5d-f3c5be6663ba",
+    "source_date": "2026-04-28",
+    "original_text": "AI search is slower, less accurate, and more presumptuous than the version we had before. When AI search first came out, we even had a choice between the two, no longer. It's forced AI that interests the companies' surveillance more than the customers' choice, and I'll be switching to another storage provider as soon as possible. For work, I'd look up \"maps\" to pull up maps of locations I service, but the AI assumes I want Google Maps or \"map view\" and takes over my phone's control to switch.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Seagull",
+      "score": 1,
+      "thumbsUp": 54,
+      "version": "7.72.0.902720222",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9dde31eb-e29b-42e3-ad10-dc2e956e4057",
+    "source_date": "2025-09-18",
+    "original_text": "Editing photos is terrible since the new update. Cropping is incredibly difficult and was far better before. There's not even \"rotate frame\" when cropping. The edited photo will be small (frankly difficult to see) in the middle surrounded by black then when you hold to compare to original picture that goes full screen (impossible to compare how the look because the propations are so vastly different. The brush that selects parts of the photo pain in the neck now, it should be given it's own tab",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jayne de Catte",
+      "score": 1,
+      "thumbsUp": 2207,
+      "version": "7.45.0.807274941",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "impossible"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ee2f50f5-fc3a-4f39-9082-eaa07ee43836",
+    "source_date": "2024-10-17",
+    "original_text": "It won't let me merge peoples labels or import my photos from Google drive. So after another few years of Google photos and drive, I'm about to give up on this service. It's good, yes. But expensive! The amount of duplicates I have of stuff and photos isn't easely mended either. Now that I'm trying to mend all of that and need to download all my stuff from both photos and drive, it's extremely difficult! For some reason Google hasn't got a select all photos! Google takeout is rubbish too.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Elli",
+      "score": 1,
+      "thumbsUp": 805,
+      "version": "7.3.0.682956182",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "give up"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=e5c9be75-7682-47dc-9e0e-a1909edc5dff",
+    "source_date": "2024-09-30",
+    "original_text": "Change is sometimes difficult. Finding specific photos varies between easy and challenging, depending on both Google's and your interpretation of search words. The latest changes have made it more difficult to find photos by people's names.. Those albums have disappeared from easy view; you have to figure out how to find them.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Robert N Chase",
+      "score": 3,
+      "thumbsUp": 687,
+      "version": "7.0.0.674947721",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d0f492e4-4861-48f5-8b63-95163de042f3",
+    "source_date": "2025-01-02",
+    "original_text": "I would very much appreciate it if the out of storage display (for backed up documents) would stop appearing. My photos are automatically backup without my say so. I'm not interested in having most of my docs backed up. I back them up myself. It would be nice if the user can decide what to have backed up. I'm not interested in paying for more backup storage. I would give five stars if I didn't have that problem. It can be very annoying.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "utility_retrieval",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Yvonne Howard",
+      "score": 2,
+      "thumbsUp": 1145,
+      "version": "7.11.0.705590205",
+      "findings_matched": [
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "utility_media": [
+          "document"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=24e628d4-e435-4971-afd3-ff777feb031b",
+    "source_date": "2025-07-23",
+    "original_text": "Google Photos is one of the best apps for storing and organizing photos. It automatically backs up your images, offers powerful search features, and groups faces and places accurately. The editing tools are simple yet effective. The cloud storage helps free up space on your phone. Some features now require a subscription, but overall it’s a reliable and smart photo management app.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "search feature"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 5-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Nayanthara moly Saji",
+      "score": 5,
+      "thumbsUp": 40067,
+      "version": "7.36.0.779865778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "search feature"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=9e1ee0f0-2a58-4071-941f-b4c73208af6f",
+    "source_date": "2025-08-05",
+    "original_text": "Used to love Google Photos, especially the Perspective tool that let me fix slanted angles and straighten lines. Now it's gone with the new update, and there's no substitute. Please bring it back. This was essential for editing architecture, scanned documents, and travel photos. Until then, 2 stars.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "utility_retrieval",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Emily Lin",
+      "score": 2,
+      "thumbsUp": 946,
+      "version": "7.39.0.787784983",
+      "findings_matched": [
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "utility_media": [
+          "document",
+          "scan",
+          "scanned"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f4cd708a-8395-46ac-91f7-8e14befa9972",
+    "source_date": "2025-09-25",
+    "original_text": "I hate the latest update. please change it back. it takes so long to edit something now because you have to scroll across to access the different sliders and you can only see 2 at a time, so you have no idea how long you'll be scrolling for. Light and Colour options are on different menus and you have to exit one to access the other. I used to use both simultaneously. Who designed this?! Have you purposely made it difficult to use because you'll be releasing a paid version? it's infuriating.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 1-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Holly Bordon",
+      "score": 1,
+      "thumbsUp": 1228,
+      "version": "7.45.0.807274941",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "scroll",
+          "scrolling"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=2620e449-2b67-446b-aced-f1f355144410",
+    "source_date": "2025-02-13",
+    "original_text": "I would give this 5 stars for being easy to use and easy to find my pictures, but it keeps insisting on backing up to the cloud. It seems like every other week it asks me if I want to turn on backup, even though I have repeatedly said no previously, and it defaults to yes, making it easy to accidentally turn backup on and filling up my Google account, as keeps happening with my mom.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Christopher Huertas",
+      "score": 3,
+      "thumbsUp": 1862,
+      "version": "7.16.0.722859601",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=544c13cb-c662-4b03-a148-6c0dafaf20f5",
+    "source_date": "2025-07-12",
+    "original_text": "Poor usability. Can't select a bunch of photos to move them to an album AND archive at same time. (Photos have to be reselected for subsequent actions.) App insists on labelling my dog as one that died 15 years ago despite them being different colours. Basic editing options such as cropping and straightening are not as quick to access as they should be. Search terms and results are biased towards North American norms.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Mike Williams",
+      "score": 2,
+      "thumbsUp": 474,
+      "version": "7.35.0.778148202",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ec0080b6-e765-4a1b-8d1e-1ec837b1d1e5",
+    "source_date": "2024-08-22",
+    "original_text": "I like the photos app, but I really don't like the way Collections has a random Places folder that is the first one in the list. I'm not interested in the grouping of my photos by place or accessing them like this and I should be able to delete or move this collection down the list so the folders I want are near the top.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Katie O",
+      "score": 2,
+      "thumbsUp": 430,
+      "version": "6.95.0.663027175",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ccc7b61a-0c3f-40e1-b673-c02ab16c45b1",
+    "source_date": "2024-09-17",
+    "original_text": "After using this app for decades, since it was created, I just turned the backup option off aam quitting it! So much frustration with the aggressive storage sales tactics, which keep re-uploading images I removed from my online storage to free space for new ones. That is an idiotic and unprofessional approach to force me into buying additional storage... Well, I now cut you altogether! Mr. Sunday Pichai - you better step your game up before becoming an obsolete company.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "A Google user",
+      "score": 1,
+      "thumbsUp": 496,
+      "version": "6.98.0.670003362",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b9ab5ac3-1cab-497b-8526-422d5b17e0be",
+    "source_date": "2025-02-11",
+    "original_text": "I went into the app looking for something to send my sister only to discover that it's missing. Just before that I had asked the app to back up my photos to clear up space and it seems a handful had been erased entirely. I'm pretty irritated and now I'm wondering if this is a one time error or how often this happened previously and I never noticed before. I tried all the stuff the \"help\" section suggestions and nothing. Can't find those images or an explanation.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find",
+      "can't find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Natalie Burns",
+      "score": 2,
+      "thumbsUp": 1127,
+      "version": "7.16.0.722859601",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find",
+          "can't find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=a8fd0d19-0757-4d26-8f6f-92a1023266e6",
+    "source_date": "2025-04-28",
+    "original_text": "YEARS WORTH OF PHOTOS GONE!! There is NO separation between cloud save and local files. I had years worth of photos, important information, close memories, all wiped, because Google photos attempted to cloud save, didn't have enough cloud save storage, so instead of just leaving cloud save off or keeping the files locally on my device, IT TOOK PRIORITY OVER MY LOCAL GALLERY FILES AND WIPED YEARS WORTH OF DATA. I will never use Google photos again",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Matthew Cotham",
+      "score": 1,
+      "thumbsUp": 812,
+      "version": "7.25.0.747549628",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ee130c68-c4c7-434d-a2fd-08c3a7d7bcef",
+    "source_date": "2026-09-07",
+    "original_text": "Can we stop adding unnecessary features no one asked for??? I just noticed there are \"Automatic albums\" where it also allows you to archive photos after 30 days, while it may be useful in some aspects, it's completely useless. The automatic sorting isn't even correct 90% of the time. I DON'T WANT my photos to be sorted like that in unnecessary albums named \"Documents\". If you really want to keep this feature, at least make it so we can choose to have it or not!!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "utility_retrieval",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Stupid_Person",
+      "score": 1,
+      "thumbsUp": 6,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "utility_media": [
+          "document"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=302cc840-fa8c-4a24-a8d9-cb0c27c3dc42",
+    "source_date": "2026-08-29",
+    "original_text": "The latest version of the app doesn't seem to order pictures chronologically by default any more. Instead, a random recent picture that (I suppose) the Google AI considers somehow \"most relevant\" is placed on top. I don't like this and I would like to kindly ask for at least an config option to switch to a strictly chronological ordering of the pictures.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Thomas Haeberlen",
+      "score": 2,
+      "thumbsUp": 7,
+      "version": "7.89.0.968035987",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bb5ce27c-e624-4a87-bafb-59e38cec8c54",
+    "source_date": "2026-09-18",
+    "original_text": "Google photos has always been an amazing gallery app, especially for the memories and moments. But I can't get over the fact that they made all the music in memories, vocal music and I can't change it back to that instrumental music that had that nostalgic feel of past moment's... Google, please add a feature to the app so we could personalized and set the music to Vocal or Instrumental for memories! Thanks.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 3-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Luan Duplessis",
+      "score": 3,
+      "thumbsUp": 6,
+      "version": "7.83.0.943371825",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=bec8df3e-0d90-4d39-ab78-cb5af89d21cc",
+    "source_date": "2026-08-24",
+    "original_text": "I truly hate how pushy the app is when you run out of storage, I have no intention to buy more than I'm paying for now and it keeps telling me how I'm going to lose my photos whenever I open it, there needs to be an option to shut up about that and let me manage in peace. I've been a long time customer and I have been paying for 200 gb for years now. There needs to be an option to turn off the reminder to buy more and I will change my review.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Ilya Shebalin",
+      "score": 1,
+      "thumbsUp": 8,
+      "version": "7.88.0.966185373",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "long time"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=1ea9af4d-293c-4c0f-a9a5-2d28a16d11df",
+    "source_date": "2026-09-14",
+    "original_text": "I used to love Google photos but now thinking of moving to iOS thanks to the latest update that doesn't let you have a 4 across grid anymore. Instead the only options are 3 or 5 across and random photos are massive, disrupting the basic grid and making it difficult to select photos in a chronological order. Just a small change that renders the whole app really annoying to use.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Charlotte Fox",
+      "score": 2,
+      "thumbsUp": 3,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=645778f9-8df3-4592-a56a-42b547308060",
+    "source_date": "2026-09-18",
+    "original_text": "Comparing to Flickr the upload and organization feature is better. Loved the mini AI tool - the Assistant of suggesting artifacts. Liked the app and love to have more better UX in next releases, though it's still a good one. +1 BTW, would love to have the feature: Local photo vs. Synced photo filter will let us easily distinguish the non-synced items, instead searching through all the mess.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 4-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Mayeenul Islam Mayeen",
+      "score": 4,
+      "thumbsUp": 42,
+      "version": "7.92.0.980155911",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=630a678e-78b6-4fab-a1d1-9039888bdfbc",
+    "source_date": "2026-09-12",
+    "original_text": "It's an alright photos app. The albums are meh, and it honestly has too many features that are mostly pointless. Let me disable stuff like memories to just see my photos. I don't care about the extra BS that you're forcing into the app. I just want an album view, full stop.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 3-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Derek Petty",
+      "score": 3,
+      "thumbsUp": 4,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b9222925-79e5-4307-b8b1-bbc315b7d0fd",
+    "source_date": "2026-08-14",
+    "original_text": "I used to really like this app to edit my pictures, and although I still use it because I think it is the best, one of the features I used for almost all of my edits is very bugged. Every time I try to use the Unblur feature, many lines appear. This never happened until a recent update. It stopped doing it for a while but now it's back and it's very annoying because I want to unblur some pictures but random lines keep appearing.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 3-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Christian Monroy",
+      "score": 3,
+      "thumbsUp": 7,
+      "version": "7.87.0.957333026",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=46ca1057-94f2-4ede-a253-e1c740e10472",
+    "source_date": "2026-08-06",
+    "original_text": "The face tagging feature is poor and it's had the same issues for years. Unable to tag faces it doesn't detect. Unable to change the name of faces it's tagged wrong. Each tag has loads and loads of random other photos tagged under the same name when they're not even remotely similar. Very very disappointing. Even worse that they've never even attempted to improve it.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Robert Cunningham",
+      "score": 1,
+      "thumbsUp": 15,
+      "version": "7.86.0.956040398",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=b5a7131a-d9f5-472a-9177-96470a749006",
+    "source_date": "2026-07-27",
+    "original_text": "I only find one thing annoying, and that's the day/time arrangement. Let me explain: For instance, I downloaded a pic at 12:55am on the 27th of July. Then I go to Photos and find it saved all the way in 5:32pm on the 5th of May, 2012. I updated the app hoping that this problem will be fixed, but it got worse. Please find a way to sort out this issue, it's really a piece of work to deal with.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jane favour Adolphus",
+      "score": 3,
+      "thumbsUp": 22,
+      "version": "7.84.0.951035818",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=08146e97-2c71-4eb5-859f-e95bc0eba14a",
+    "source_date": "2026-09-17",
+    "original_text": "Where are my missing album pictures that I uploaded from my Galaxy phone !Still missing!!! Also all the pictures I purchased from you in your photo book Gone! Titled albums do me no good when my pictures I had in them are missing!! Hope they find my photos or I will never use this again! It's been months now !",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 2-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Roxanne Beechick",
+      "score": 2,
+      "thumbsUp": 50,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=3c905b64-706d-4481-b3cc-306f0416cff1",
+    "source_date": "2026-09-11",
+    "original_text": "Something annoying happened in the recent version! I usually edit pictures and send them to friends. Now, after I edit them, although I see them in the gallery, when I try to choose from FB or Whatsapp - I can't find the edited ones at all! I tried to search in different folders - nothing... Update after the developer's replay: I waited enough time, the photos didn't appear in my gallery till now (after a week!) And even more - I see them in the gallery on my old Pixel 3",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search",
+      "find",
+      "can't find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Marina Kitain",
+      "score": 1,
+      "thumbsUp": 4,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search",
+          "find",
+          "can't find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=d8ebde8b-6e21-41a8-80ff-a989a4288af8",
+    "source_date": "2026-09-11",
+    "original_text": "I generally love the app and the memories that is pulls up however, I am reasonably upset that the compilations that the app puts together that play a song over the original audio of the video and there is no setting to remove it without having to jump through hoops for each and every video. Google, please fix it.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 2-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "high",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Jessica Farquhar",
+      "score": 2,
+      "thumbsUp": 4,
+      "version": "7.91.0.978065458",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=13cd03f1-0fe1-42ea-8634-c272dc41c8ea",
+    "source_date": "2026-09-06",
+    "original_text": "The App Was Good For Sending GIF And Photos In Games, But Forbids Me From Sending Any GIF to certain games I have currently, which currently they are not inappropriate, there been updates with that and to the fact that it not letting me send any GIF in Games. Every Time I Find A New App To Replace It, It Still Shows The Same Exact Thing. The Protection and Sending was good for once, but the GIF Part Needs Fixing In Certain Games. Overall I Give It 3.2 Stars, Because it needs fixing but good.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 3-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Gaming Sumono",
+      "score": 3,
+      "thumbsUp": 5,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=181fefd1-790f-4087-a6bb-be20a40743bb",
+    "source_date": "2026-09-03",
+    "original_text": "The fact there's no option on this app to redownload all of the backed-up photos or even distinguish them easily from those on the device yet to be backed up makes this app complete trash. I've also lost god knows how many photos thinking they'd been backed up (after I specifically backed them up) just for them to disappear forever. This app is genuinely worthless.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "just a goose",
+      "score": 1,
+      "thumbsUp": 5,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "forever"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=0f519c2f-e4a5-4b13-961e-58ed550602ea",
+    "source_date": "2026-09-15",
+    "original_text": "I like the whole timeline idea and a few of the other features. I would really like to see a folder option to group up similar albums. Instead of having one family album with 500+ photos, being able to break them down by family member specific albums in a family folder ect.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 2: 45.2% resort to manual timeline scrolling after search failure",
+    "scenario_type": "manual_browsing",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "manual_timeline_scroll"
+    ],
+    "failure_type": "navigation_difficulty",
+    "failure_detail": "Play Store 3-star review matching: manual_scrolling",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Konnor Williscroft",
+      "score": 3,
+      "thumbsUp": 3,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "manual_scrolling"
+      ],
+      "keywords_matched": {
+        "manual_scrolling": [
+          "timeline"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=17ff7e6d-5871-4b4a-961b-a8643651fead",
+    "source_date": "2026-09-09",
+    "original_text": "edit: I fixed the problem, used an apk to download version 7.90! the last update to the UI has made this app unusable. I cant find any of the photos im looking for, things are no longer grouped by date, some photos dont show up at all in the main grid and now i have to dig in collections to find them, theres so many more issues too. the app worked amazingly before this update, I will look into downloading an older version and recommend others do the same or avoid updating if you havent yet",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Rin Statz",
+      "score": 1,
+      "thumbsUp": 5,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=90ad0544-cb78-439e-88ca-d02a3b795fb3",
+    "source_date": "2026-09-07",
+    "original_text": "It's terrible, it backs the pics up before I get a chance to edit them, then I can't find then again to save my storage space. Worst app ever, shame on you google. Thanks for the advice on how to use the product correctly . I still have trouble, I just don't whinge about it so openly, anymore.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find",
+      "can't find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 4-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Kristy Gazzard",
+      "score": 4,
+      "thumbsUp": 19,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find",
+          "can't find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=5c778457-90fd-49a5-aad2-771baa1467ff",
+    "source_date": "2026-09-11",
+    "original_text": "Please bring back the face tracking/auto-zoom feature in Google Photos! On my Pixel 6, I could select a subject’s face in a video, and Google Photos would automatically zoom in and follow the face throughout a selected part of the video. I’m now using a Pixel 8 Pro, and I can’t find this feature anymore. It was incredibly useful. Please bring it back!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 5-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Tekoh Bildad",
+      "score": 5,
+      "thumbsUp": 3,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=2de565d0-709e-4b06-94fc-f3dd3b2fb4c8",
+    "source_date": "2026-09-05",
+    "original_text": "I hate this app.. I'm literally getting frustrated by the fact that my google photos couldn't keep up with the amount of photos I had in my internal phone, even though I bought the extra storage. This caused to stop sending me any emails and I couldn't do anything about it. Why do you guys need to make it so hard to unsync google photos or let me delete it from that app without it affecting my phone gallery? It's complicated to do and I am so upset with how this turned out.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Annsusette Lopez",
+      "score": 1,
+      "thumbsUp": 6,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "frustrat"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=6d1e5f1e-cb32-43c8-bb62-7b4aa4074049",
+    "source_date": "2026-09-04",
+    "original_text": "used to be great photo program. now garbage. other friends also saying same thing. even tried uninstalling and reinstalling. now wants access to everything and ability control phone settings. for what? this is a photo and edit program. software inclusions of eraser ,unblur and others aweaome features used to work great... now get circle of death and nothing adjusts. as usual companies screw with the programs software and make a program complete garbage. wll find something else to use",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "find"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "michael",
+      "score": 1,
+      "thumbsUp": 4,
+      "version": "7.90.0.971743778",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "find"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=223add74-dd97-426f-8c38-0ea8333a5b62",
+    "source_date": "2026-08-26",
+    "original_text": "Google Photos: The Best Photo Application. I've had experience using Google Photos and I won't use any other application as well as storing your previous memories of your life. Also I'm amazed how colleges are easy to do.One more feature is with the Google Photos you can bring your photos to life with the cinematic feature with in the app and easy to use. Thank you user from 2019-;2026 👍",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 5-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Donna Lea La Rue",
+      "score": 5,
+      "thumbsUp": 12,
+      "version": "7.89.0.968035987",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f17d3733-ff8c-420a-810f-40107a0ad4a8",
+    "source_date": "2026-09-29",
+    "original_text": "I'm having no luck sending my photo on dating smatch",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 5-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Meg Hudson",
+      "score": 5,
+      "thumbsUp": 0,
+      "version": "7.91.0.973540846",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "luck"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=350b7acc-cc28-43d8-a4d2-a40ba96e9bf6",
+    "source_date": "2026-09-29",
+    "original_text": "I took a screenshot so I can keep a copy how much storage i have. As 09/16/26 have 11gb used & 73% left out of 15gb it shouldn't go to up because back up been turned off since 2023. after update I'm being forced to buy more storage & 1% left. how is that possible. as of 09/24/26 1% remaining. shady tactics & practices. yes all my drives etc are off",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: Utility content (documents/receipts 22.6%, screenshots 12.9%) is hardest to retrieve",
+    "scenario_type": "utility_retrieval",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: utility_media",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Roy Villanueva",
+      "score": 1,
+      "thumbsUp": 1,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "utility_media"
+      ],
+      "keywords_matched": {
+        "utility_media": [
+          "screenshot"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=00b1aacc-cb5e-4f1c-aec2-fc383041c44c",
+    "source_date": "2026-09-29",
+    "original_text": "update on my play event in juzy£",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "event"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 5-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Masudrana",
+      "score": 5,
+      "thumbsUp": 0,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "event"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=284c5766-32a9-4ef0-abad-ee1e604288f4",
+    "source_date": "2026-09-29",
+    "original_text": "loves how it can tell, and name different ppl from your gallery, and make memories🤍",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 5-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Shanae Dames",
+      "score": 5,
+      "thumbsUp": 0,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=f4c6bbe8-1855-4400-a519-f6ed96c5acca",
+    "source_date": "2026-09-29",
+    "original_text": "Whoever decided to remove the option of uniformed view should be fired immediately. I loved Google photos until you forced that garbage view of randomly showing some enlarged photos that I don't even like. It makes managing photos so much harder and driving me nuts. I have to switch back to Samsung gallery but then photos deleted there are still being backing up in Google photos so now I am out of sync. Thanks for nothing Google",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 64.5% have low confidence (3/5 or lower) in search",
+    "scenario_type": "low_confidence",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: low_confidence",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Peter Zhu",
+      "score": 1,
+      "thumbsUp": 0,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "low_confidence"
+      ],
+      "keywords_matched": {
+        "low_confidence": [
+          "random"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=ca21568f-bc8a-4cf7-9760-1d31b4c1ecfa",
+    "source_date": "2026-09-29",
+    "original_text": "On less storage you can enjoy your memories",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 5-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Ahmad Raza",
+      "score": 5,
+      "thumbsUp": 0,
+      "version": "7.82.0.937646388",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=1207e69a-c572-42d6-bab3-dd243d0d6e62",
+    "source_date": "2026-09-29",
+    "original_text": "Thanks Google keeps using popup to make people accidentally press copy to cloud. FIX YOUR USELESS SYSTEM. How many years do I have to wait a company that don't care about the users. 🤬 I want cloud saving to be turned off forever and never popup on my screen ever again. What is so hard to understand.",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 3: 61.3% spend 5+ minutes searching for a single photo",
+    "scenario_type": "time_waste",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 1-star review matching: time_waste",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Rickard",
+      "score": 1,
+      "thumbsUp": 24,
+      "version": "7.93.0.982110057",
+      "findings_matched": [
+        "time_waste"
+      ],
+      "keywords_matched": {
+        "time_waste": [
+          "forever"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=476cb03f-f89b-4c3e-8c39-cc84f3c8dc17",
+    "source_date": "2026-09-29",
+    "original_text": "sweets memories display by Google photos... Thanks Google",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Natural memory triggers mismatch rigid search capabilities",
+    "scenario_type": "memory_mismatch",
+    "memory_clues": [
+      "memories"
+    ],
+    "forgotten_info": [],
+    "search_queries": [],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "general_friction",
+    "failure_detail": "Play Store 4-star review matching: memory_mismatch",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "medium",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Vikram Singh",
+      "score": 4,
+      "thumbsUp": 0,
+      "version": "7.80.0.929302933",
+      "findings_matched": [
+        "memory_mismatch"
+      ],
+      "keywords_matched": {
+        "memory_mismatch": [
+          "memories"
+        ]
+      }
+    }
+  },
+  {
+    "source_platform": "play_store",
+    "source_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&reviewId=1f68ab12-a59a-4dc6-a247-5153e5ca9ad3",
+    "source_date": "2026-06-24",
+    "original_text": "They removed the ability to see photo information. it used to be if you clicked the \"about\" button it would tell you the format of the photo for example. now it's been replaced with an AI slop search bar. I don't need AI to look at my damn photo I need to know if it's a JPEG or PNG. Just another thing in the long list of AI slop features that no one asked for to make your user experience \"better\" you're welcome!",
+    "relevance": "high",
+    "relevance_reasoning": "Supports Finding 1: Search doesn't understand user intent (35.5% each for \"search did not understand\" and \"couldn't describe in searchable words\")",
+    "scenario_type": "search_failure",
+    "memory_clues": [],
+    "forgotten_info": [],
+    "search_queries": [
+      "search"
+    ],
+    "search_methods": [
+      "app_search"
+    ],
+    "failure_type": "search_relevance_failure",
+    "failure_detail": "Play Store 1-star review matching: search_failure",
+    "workaround": null,
+    "workaround_effort": null,
+    "user_segment": "general_user",
+    "severity": "critical",
+    "confidence": 0.6,
+    "evidence_type": "direct_evidence",
+    "play_store_metadata": {
+      "reviewer": "Carson Tatum (Sincoura)",
+      "score": 1,
+      "thumbsUp": 32,
+      "version": "7.81.0.932521513",
+      "findings_matched": [
+        "search_failure"
+      ],
+      "keywords_matched": {
+        "search_failure": [
+          "search"
+        ]
+      }
+    }
+  }
+]

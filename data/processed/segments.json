@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "label": "Memory Archivist",
+    "description": "Maintains 10+ years of library history and scanned family prints. Highest emotional distress when search fails.",
+    "typical_memory_type": "[\"approximate_year\",\"family_members\",\"life_events\"]",
+    "dominant_failure": "Temporal Vagueness & Missing EXIF",
+    "dominant_workaround": "Manual month-by-month timeline scrub",
+    "evidence_count": 8
+  },
+  {
+    "id": 2,
+    "label": "Utility Capturer",
+    "description": "Relies on photos as an external hard drive for receipts, serial numbers, router barcodes, and screenshots.",
+    "typical_memory_type": "[\"brand_names\",\"document_type\",\"recent_timeframe\"]",
+    "dominant_failure": "OCR & Document Text Failure",
+    "dominant_workaround": "Pulling furniture away to re-photograph or checking email",
+    "evidence_count": 8
+  },
+  {
+    "id": 3,
+    "label": "Candid Chronicler",
+    "description": "Parents and visual storytellers looking for specific unposed moments, clothing colors, and candid interactions.",
+    "typical_memory_type": "[\"clothing_color\",\"laughter_action\",\"props_bandana\"]",
+    "dominant_failure": "Visual Ambiguity & Semantic Action Gap",
+    "dominant_workaround": "Texting spouse/family member asking for their copy",
+    "evidence_count": 9
+  },
+  {
+    "id": 4,
+    "label": "Casual Searcher",
+    "description": "Infrequent searchers who expect quick conversational retrieval and abandon queries after 1-2 attempts.",
+    "typical_memory_type": "[\"broad_category\",\"vague_location\"]",
+    "dominant_failure": "Search Abandonment",
+    "dominant_workaround": "Permanent abandonment of memory retrieval",
+    "evidence_count": 5
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "parent_id": null,
+    "code": "A",
+    "label": "Visual Ambiguity",
+    "description": "Target image resembles hundreds of visually similar photos (e.g. waterfalls, pets, sunsets)",
+    "evidence_count": 2,
+    "percentage": 8
+  },
+  {
+    "id": 2,
+    "parent_id": null,
+    "code": "B",
+    "label": "Temporal Vagueness",
+    "description": "User has fuzzy or inaccurate recollection of date/year, or scanned photos lack EXIF dates",
+    "evidence_count": 7,
+    "percentage": 28
+  },
+  {
+    "id": 3,
+    "parent_id": null,
+    "code": "C",
+    "label": "Metadata Void",
+    "description": "Missing GPS location, missing camera metadata, or imported media without creation timestamps",
+    "evidence_count": 2,
+    "percentage": 8
+  },
+  {
+    "id": 4,
+    "parent_id": null,
+    "code": "D",
+    "label": "Semantic Gap",
+    "description": "Vocabulary mismatch between mental model and search index (e.g. actions, emotional states)",
+    "evidence_count": 4,
+    "percentage": 16
+  },
+  {
+    "id": 5,
+    "parent_id": null,
+    "code": "E",
+    "label": "OCR / Text Failure",
+    "description": "Inability to detect legible text on receipts, serial numbers, signage, or tilted documents",
+    "evidence_count": 6,
+    "percentage": 24
+  },
+  {
+    "id": 6,
+    "parent_id": null,
+    "code": "F",
+    "label": "Face Grouping Failure",
+    "description": "Omission of known persons wearing sunglasses, hats, masks, or extreme angles",
+    "evidence_count": 1,
+    "percentage": 4
+  },
+  {
+    "id": 7,
+    "parent_id": null,
+    "code": "G",
+    "label": "Compound Query Failure",
+    "description": "Search interprets multi-subject queries as OR instead of AND (e.g. Mom and Grandma)",
+    "evidence_count": 1,
+    "percentage": 4
+  },
+  {
+    "id": 8,
+    "parent_id": null,
+    "code": "H",
+    "label": "Search Abandonment",
+    "description": "Cognitive fatigue from infinite feed scrolling leading to permanent abandonment",
+    "evidence_count": 2,
+    "percentage": 8
+  }
+]

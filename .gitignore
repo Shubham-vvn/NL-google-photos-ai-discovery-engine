@@ -1,0 +1,36 @@
+# =======================================================
+# Git Ignore Configuration - Google Photos Discovery Engine
+# =======================================================
+
+# Exclude raw data notes and input documents explicitly requested
+data.txt
+problemStatemt.txt
+problemStatement.txt
+
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+!*.env.example
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# SQLite temporary runtime lock files (keep evidence.db and data/processed/)
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Vercel deployment cache
+.vercel/
