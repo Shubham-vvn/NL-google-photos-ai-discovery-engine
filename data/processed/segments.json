@@ -6,7 +6,7 @@
     "typical_memory_type": "[\"approximate_year\",\"family_members\",\"life_events\"]",
     "dominant_failure": "Temporal Vagueness & Missing EXIF",
     "dominant_workaround": "Manual month-by-month timeline scrub",
-    "evidence_count": 8
+    "evidence_count": 14
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "typical_memory_type": "[\"brand_names\",\"document_type\",\"recent_timeframe\"]",
     "dominant_failure": "OCR & Document Text Failure",
     "dominant_workaround": "Pulling furniture away to re-photograph or checking email",
-    "evidence_count": 8
+    "evidence_count": 11
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "typical_memory_type": "[\"clothing_color\",\"laughter_action\",\"props_bandana\"]",
     "dominant_failure": "Visual Ambiguity & Semantic Action Gap",
     "dominant_workaround": "Texting spouse/family member asking for their copy",
-    "evidence_count": 9
+    "evidence_count": 11
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "typical_memory_type": "[\"broad_category\",\"vague_location\"]",
     "dominant_failure": "Search Abandonment",
     "dominant_workaround": "Permanent abandonment of memory retrieval",
-    "evidence_count": 5
+    "evidence_count": 2
   }
 ]

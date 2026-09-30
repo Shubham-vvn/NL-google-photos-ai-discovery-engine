@@ -363,4 +363,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { scrapePlayStoreReviews, scrapeAndSave, classifyReview, FINDING_KEYWORDS };
+module.exports = { scrapePlayStoreReviews, scrapeAndSave, classifyReview, reviewToEvidenceNode, FINDING_KEYWORDS };
