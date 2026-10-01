@@ -11,13 +11,24 @@ const defaultDbPath = process.env.EVIDENCE_DB_PATH
 let DB_PATH = defaultDbPath;
 if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME) {
   const tmpDbPath = path.join('/tmp', 'evidence.db');
-  if (!fs.existsSync(tmpDbPath)) {
-    if (fs.existsSync(defaultDbPath)) {
-      try {
-        fs.copyFileSync(defaultDbPath, tmpDbPath);
-      } catch (err) {
-        console.warn('[DB] Could not copy DB to /tmp, will initialize fresh in /tmp:', err.message);
+  let needsCopy = !fs.existsSync(tmpDbPath);
+  if (!needsCopy && fs.existsSync(defaultDbPath)) {
+    try {
+      const srcStat = fs.statSync(defaultDbPath);
+      const dstStat = fs.statSync(tmpDbPath);
+      if (srcStat.size !== dstStat.size || srcStat.mtimeMs > dstStat.mtimeMs) {
+        needsCopy = true;
       }
+    } catch {
+      needsCopy = true;
+    }
+  }
+
+  if (needsCopy && fs.existsSync(defaultDbPath)) {
+    try {
+      fs.copyFileSync(defaultDbPath, tmpDbPath);
+    } catch (err) {
+      console.warn('[DB] Could not copy DB to /tmp, will initialize fresh in /tmp:', err.message);
     }
   }
   DB_PATH = tmpDbPath;
@@ -43,6 +54,24 @@ function getDb() {
     if (fs.existsSync(SCHEMA_PATH)) {
       const schema = fs.readFileSync(SCHEMA_PATH, 'utf-8');
       db.exec(schema);
+    }
+
+    // Auto-sync with nodes.json if DB has fewer records than backup
+    const nodesPath = path.join(__dirname, '..', 'data', 'processed', 'nodes.json');
+    if (fs.existsSync(nodesPath)) {
+      try {
+        const nodes = JSON.parse(fs.readFileSync(nodesPath, 'utf-8'));
+        const row = db.prepare('SELECT COUNT(*) as count FROM evidence_nodes').get();
+        if (!row || row.count < nodes.length) {
+          console.log(`[DB] Auto-syncing database (${row ? row.count : 0} nodes) with nodes.json (${nodes.length} nodes)...`);
+          const seed = require('./seed');
+          if (typeof seed === 'function') {
+            seed();
+          }
+        }
+      } catch (err) {
+        console.warn('[DB] Auto-sync check warning:', err.message);
+      }
     }
   }
   return db;
