@@ -1772,7 +1772,7 @@ html, body {
   }
 
   .chip-label {
-    display: none; /* Hide verbose label on mobile: shows "🟢 31 Users", "🔵 499 Reviews", "🟣 5 Platforms" */
+    display: none; /* Hide verbose label on mobile: shows "🟢 31 Users", "🔵 555 Reviews", "🟣 5 Platforms" */
   }
 
   .header-export-btn {
