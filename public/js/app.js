@@ -141,13 +141,14 @@
 
     // Show container with loading state
     container.style.display = 'flex';
+    const currentTotalReviews = (dashboardData && dashboardData.kpis && dashboardData.kpis.total_scraped_reviews) || 570;
     container.innerHTML = `
       <div class="loading-state" style="padding: 2.5rem 1rem;">
         <span class="material-symbols-outlined spin" style="font-size: 28px; color: var(--color-google-blue);">sync</span>
         <div>
           <div style="font-weight: 600; color: var(--text-main); font-size: 0.9375rem;">Synthesizing research evidence...</div>
           <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 3px;">
-            Analyzing "${escapeHtml(query)}" across 570 reviews and 31 survey data points
+            Analyzing "${escapeHtml(query)}" across ${currentTotalReviews} reviews and 31 survey data points
           </div>
         </div>
       </div>
@@ -342,6 +343,9 @@
     const elScrapedCount = document.getElementById('kpi-scraped-count');
     if (elScrapedCount) elScrapedCount.textContent = `${kpis.total_scraped_reviews || 570} Reviews`;
 
+    const elHeroReviews = document.getElementById('hero-reviews-count');
+    if (elHeroReviews) elHeroReviews.textContent = kpis.total_scraped_reviews || 570;
+
     const elSampleSize = document.getElementById('kpi-sample-size');
     if (elSampleSize) elSampleSize.textContent = `${kpis.sample_size || 31} Users`;
   }
@@ -372,6 +376,9 @@
 
     const elStatReviews = document.getElementById('stat-total-reviews');
     if (elStatReviews) elStatReviews.textContent = totalReviews;
+
+    const elHeroReviews = document.getElementById('hero-reviews-count');
+    if (elHeroReviews) elHeroReviews.textContent = totalReviews;
 
     const elStatSources = document.getElementById('stat-total-sources');
     if (elStatSources) elStatSources.textContent = platformBreakdown.length;
