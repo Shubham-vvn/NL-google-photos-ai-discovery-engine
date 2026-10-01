@@ -6,7 +6,7 @@
     "label": "Visual Ambiguity",
     "description": "Target image resembles hundreds of visually similar photos (e.g. waterfalls, pets, sunsets)",
     "evidence_count": 2,
-    "percentage": 1
+    "percentage": 0
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "label": "Temporal Vagueness",
     "description": "User has fuzzy or inaccurate recollection of date/year, or scanned photos lack EXIF dates",
     "evidence_count": 7,
-    "percentage": 2
+    "percentage": 1
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "label": "Metadata Void",
     "description": "Missing GPS location, missing camera metadata, or imported media without creation timestamps",
     "evidence_count": 2,
-    "percentage": 1
+    "percentage": 0
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "label": "OCR / Text Failure",
     "description": "Inability to detect legible text on receipts, serial numbers, signage, or tilted documents",
     "evidence_count": 6,
-    "percentage": 2
+    "percentage": 1
   },
   {
     "id": 6,
@@ -69,6 +69,6 @@
     "label": "Search Abandonment",
     "description": "Cognitive fatigue from infinite feed scrolling leading to permanent abandonment",
     "evidence_count": 2,
-    "percentage": 1
+    "percentage": 0
   }
 ]
