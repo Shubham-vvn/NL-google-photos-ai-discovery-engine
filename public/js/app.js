@@ -147,7 +147,7 @@
         <div>
           <div style="font-weight: 600; color: var(--text-main); font-size: 0.9375rem;">Synthesizing research evidence...</div>
           <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 3px;">
-            Analyzing "${escapeHtml(query)}" across 124 reviews and 31 survey data points
+            Analyzing "${escapeHtml(query)}" across 499 reviews and 31 survey data points
           </div>
         </div>
       </div>
@@ -340,7 +340,7 @@
     if (elConfidence) elConfidence.textContent = `${kpis.depressed_confidence || 64.5}%`;
 
     const elScrapedCount = document.getElementById('kpi-scraped-count');
-    if (elScrapedCount) elScrapedCount.textContent = `${kpis.total_scraped_reviews || 124} Reviews`;
+    if (elScrapedCount) elScrapedCount.textContent = `${kpis.total_scraped_reviews || 499} Reviews`;
 
     const elSampleSize = document.getElementById('kpi-sample-size');
     if (elSampleSize) elSampleSize.textContent = `${kpis.sample_size || 31} Users`;
@@ -354,7 +354,7 @@
     if (!dashboardData) return;
     const kpis = dashboardData.kpis || {};
     const platformBreakdown = kpis.platform_breakdown || [];
-    const totalReviews = kpis.total_scraped_reviews || 224;
+    const totalReviews = kpis.total_scraped_reviews || 499;
     const allNodes = dashboardData.evidence_nodes || [];
 
     // Header and Chip Updates
@@ -814,7 +814,7 @@
 
     const kpis = dashboardData.kpis || {};
     const platformBreakdown = kpis.platform_breakdown || [];
-    const total = kpis.total_scraped_reviews || 224;
+    const total = kpis.total_scraped_reviews || 499;
 
     const subTitleEl = document.getElementById('chart5-subtitle');
     const insightTextEl = document.getElementById('chart5-insight-text');

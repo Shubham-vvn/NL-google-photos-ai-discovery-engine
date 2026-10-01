@@ -6,10 +6,14 @@ const db = require('./init');
 
 // --- Evidence Queries ---
 
-function getEvidenceStats() {
-  const total = db.prepare('SELECT COUNT(*) as count FROM evidence_nodes').get().count;
-  const processed = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE relevance != 'unprocessed'").get().count;
-  const relevant = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE relevance = 'relevant'").get().count;
+function getEvidenceStats(includeAll = false) {
+  const dateClause = includeAll ? '' : "WHERE source_date >= '2024-01-01'";
+  const andDateClause = includeAll ? '' : "AND source_date >= '2024-01-01'";
+  const whereOrAnd = includeAll ? 'WHERE' : "WHERE source_date >= '2024-01-01' AND";
+
+  const total = db.prepare(`SELECT COUNT(*) as count FROM evidence_nodes ${dateClause}`).get().count;
+  const processed = db.prepare(`SELECT COUNT(*) as count FROM evidence_nodes WHERE relevance != 'unprocessed' ${andDateClause}`).get().count;
+  const relevant = db.prepare(`SELECT COUNT(*) as count FROM evidence_nodes WHERE relevance = 'relevant' ${andDateClause}`).get().count;
   const opportunities = db.prepare('SELECT COUNT(*) as count FROM opportunities').get().count;
   const p0Count = db.prepare("SELECT COUNT(*) as count FROM opportunities WHERE priority = 'P0'").get().count;
   const segments = db.prepare('SELECT COUNT(*) as count FROM user_segments').get().count;
@@ -18,6 +22,7 @@ function getEvidenceStats() {
   const sources = db.prepare(`
     SELECT source_platform, COUNT(*) as count 
     FROM evidence_nodes 
+    ${dateClause}
     GROUP BY source_platform
   `).all();
 
@@ -25,7 +30,7 @@ function getEvidenceStats() {
   const topFailure = db.prepare(`
     SELECT failure_type, COUNT(*) as count 
     FROM evidence_nodes 
-    WHERE failure_type IS NOT NULL AND failure_type != ''
+    ${whereOrAnd} failure_type IS NOT NULL AND failure_type != ''
     GROUP BY failure_type 
     ORDER BY count DESC 
     LIMIT 1
@@ -50,6 +55,18 @@ function getEvidenceStats() {
 function getEvidence(filters = {}, page = 1, limit = 20) {
   let query = 'SELECT * FROM evidence_nodes WHERE 1=1';
   const params = [];
+
+  if (!filters.include_all && filters.include_all !== 'true') {
+    if (filters.date_min) {
+      query += ' AND source_date >= ?';
+      params.push(filters.date_min);
+    } else {
+      query += " AND source_date >= '2024-01-01'";
+    }
+  } else if (filters.date_min) {
+    query += ' AND source_date >= ?';
+    params.push(filters.date_min);
+  }
 
   if (filters.relevance) {
     query += ' AND relevance = ?';
@@ -234,14 +251,15 @@ function getOpportunityById(id) {
 
 // --- Scenarios & Taxonomy ---
 
-function getScenarioBreakdown() {
+function getScenarioBreakdown(includeAll = false) {
+  const dateClause = includeAll ? '' : "AND source_date >= '2024-01-01'";
   const results = db.prepare(`
     SELECT 
       scenario_type, 
       COUNT(*) as count,
       ROUND(AVG(confidence), 2) as avg_confidence
     FROM evidence_nodes 
-    WHERE scenario_type IS NOT NULL AND scenario_type != ''
+    WHERE scenario_type IS NOT NULL AND scenario_type != '' ${dateClause}
     GROUP BY scenario_type 
     ORDER BY count DESC
   `).all();

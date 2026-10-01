@@ -10,7 +10,8 @@ const queries = require('../db/queries');
 // 1. Aggregate KPIs
 router.get('/stats', (req, res) => {
   try {
-    const stats = queries.getEvidenceStats();
+    const includeAll = req.query.include_all === 'true';
+    const stats = queries.getEvidenceStats(includeAll);
     res.json({ status: 'ok', data: stats });
   } catch (err) {
     res.status(500).json({ status: 'error', message: err.message });
@@ -29,7 +30,9 @@ router.get('/evidence', (req, res) => {
       failure: req.query.failure,
       severity: req.query.severity,
       confidence_min: req.query.confidence_min,
-      search: req.query.search
+      search: req.query.search,
+      date_min: req.query.date_min,
+      include_all: req.query.include_all
     };
 
     const result = queries.getEvidence(filters, page, limit);
@@ -163,7 +166,8 @@ router.get('/quotes/:opportunity_id', (req, res) => {
 // 12. Export CSV
 router.get('/export/csv', (req, res) => {
   try {
-    const result = queries.getEvidence({}, 1, 10000);
+    const includeAll = req.query.include_all === 'true';
+    const result = queries.getEvidence(includeAll ? { include_all: true } : {}, 1, 10000);
     const headers = ['id', 'source_platform', 'source_date', 'scenario_type', 'failure_type', 'severity', 'confidence', 'original_text'];
     const rows = result.data.map(item => [
       item.id,
@@ -188,7 +192,8 @@ router.get('/export/csv', (req, res) => {
 // 13. Export JSON
 router.get('/export/json', (req, res) => {
   try {
-    const result = queries.getEvidence({}, 1, 10000);
+    const includeAll = req.query.include_all === 'true';
+    const result = queries.getEvidence(includeAll ? { include_all: true } : {}, 1, 10000);
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Content-Disposition', 'attachment; filename="evidence-corpus.json"');
     res.json(result.data);
@@ -200,8 +205,9 @@ router.get('/export/json', (req, res) => {
 // 14. Export Opportunity Report
 router.get('/export/report', (req, res) => {
   try {
+    const includeAll = req.query.include_all === 'true';
     const opportunities = queries.getOpportunities();
-    const stats = queries.getEvidenceStats();
+    const stats = queries.getEvidenceStats(includeAll);
     res.json({
       title: 'Google Photos Retrieval Opportunity Report',
       generated_at: new Date().toISOString(),
@@ -255,49 +261,51 @@ router.get('/discovery/query', async (req, res) => {
 // 17. Consolidated Discovery Dashboard Endpoint (Empirical Survey + Real Evidence)
 router.get('/discovery-dashboard', (req, res) => {
   try {
-    const totalEvidence = db.prepare('SELECT COUNT(*) as count FROM evidence_nodes').get().count;
+    // Hide reviews from 2019-2023 from the dashboard without deleting from database
+    const minDate = '2024-01-01';
+    const totalEvidence = db.prepare('SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ?').get(minDate).count;
 
-    // Real scraped evidence counts mapped to key findings
-    const searchFailuresCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE scenario_type = 'search_failure' OR failure_type LIKE '%search%'").get().count;
-    const timeWasteCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE scenario_type = 'time_waste' OR original_text LIKE '%minute%' OR original_text LIKE '%hour%' OR original_text LIKE '%waste%'").get().count;
-    const memoryMismatchCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE scenario_type IN ('memory_mismatch', 'person_memory', 'travel_memory', 'event_memory')").get().count;
-    const manualScrollCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE scenario_type = 'manual_browsing' OR original_text LIKE '%scroll%' OR workaround LIKE '%scroll%'").get().count;
-    const utilityMediaCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE scenario_type IN ('utility_retrieval', 'document_screenshot') OR original_text LIKE '%receipt%' OR original_text LIKE '%screenshot%'").get().count;
+    // Real scraped evidence counts mapped to key findings (filtered for 2024+)
+    const searchFailuresCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? AND (scenario_type = 'search_failure' OR failure_type LIKE '%search%')").get(minDate).count;
+    const timeWasteCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? AND (scenario_type = 'time_waste' OR original_text LIKE '%minute%' OR original_text LIKE '%hour%' OR original_text LIKE '%waste%')").get(minDate).count;
+    const memoryMismatchCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? AND scenario_type IN ('memory_mismatch', 'person_memory', 'travel_memory', 'event_memory')").get(minDate).count;
+    const manualScrollCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? AND (scenario_type = 'manual_browsing' OR original_text LIKE '%scroll%' OR workaround LIKE '%scroll%')").get(minDate).count;
+    const utilityMediaCount = db.prepare("SELECT COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? AND (scenario_type IN ('utility_retrieval', 'document_screenshot') OR original_text LIKE '%receipt%' OR original_text LIKE '%screenshot%')").get(minDate).count;
 
     // Filter evidence nodes if requested
     const category = req.query.category;
-    let evidenceQuery = 'SELECT id, source_platform, source_url, source_date, original_text, severity, scenario_type, failure_type, workaround, confidence FROM evidence_nodes';
-    const params = [];
+    let evidenceQuery = 'SELECT id, source_platform, source_url, source_date, original_text, severity, scenario_type, failure_type, workaround, confidence FROM evidence_nodes WHERE source_date >= ?';
+    const params = [minDate];
     if (category && category !== 'all') {
       if (category === 'search_failure') {
-        evidenceQuery += " WHERE scenario_type = 'search_failure' OR failure_type LIKE '%search%'";
+        evidenceQuery += " AND (scenario_type = 'search_failure' OR failure_type LIKE '%search%')";
       } else if (category === 'time_waste') {
-        evidenceQuery += " WHERE scenario_type = 'time_waste' OR original_text LIKE '%minute%' OR original_text LIKE '%hour%' OR original_text LIKE '%waste%'";
+        evidenceQuery += " AND (scenario_type = 'time_waste' OR original_text LIKE '%minute%' OR original_text LIKE '%hour%' OR original_text LIKE '%waste%')";
       } else if (category === 'memory_mismatch') {
-        evidenceQuery += " WHERE scenario_type IN ('memory_mismatch', 'person_memory', 'travel_memory', 'event_memory')";
+        evidenceQuery += " AND scenario_type IN ('memory_mismatch', 'person_memory', 'travel_memory', 'event_memory')";
       } else if (category === 'manual_scrolling') {
-        evidenceQuery += " WHERE scenario_type = 'manual_browsing' OR original_text LIKE '%scroll%' OR workaround LIKE '%scroll%'";
+        evidenceQuery += " AND (scenario_type = 'manual_browsing' OR original_text LIKE '%scroll%' OR workaround LIKE '%scroll%')";
       } else if (category === 'utility_media') {
-        evidenceQuery += " WHERE scenario_type IN ('utility_retrieval', 'document_screenshot') OR original_text LIKE '%receipt%' OR original_text LIKE '%screenshot%'";
+        evidenceQuery += " AND (scenario_type IN ('utility_retrieval', 'document_screenshot') OR original_text LIKE '%receipt%' OR original_text LIKE '%screenshot%')";
       } else if (category === 'app_store') {
-        evidenceQuery += " WHERE source_platform = 'app_store'";
+        evidenceQuery += " AND source_platform = 'app_store'";
       } else if (category === 'play_store') {
-        evidenceQuery += " WHERE source_platform = 'play_store'";
+        evidenceQuery += " AND source_platform = 'play_store'";
       } else if (category === 'reddit') {
-        evidenceQuery += " WHERE source_platform = 'reddit'";
+        evidenceQuery += " AND source_platform = 'reddit'";
       } else if (category === 'community') {
-        evidenceQuery += " WHERE source_platform = 'community'";
+        evidenceQuery += " AND source_platform = 'community'";
       } else if (category === 'usability_lab') {
-        evidenceQuery += " WHERE source_platform = 'usability_lab'";
+        evidenceQuery += " AND source_platform = 'usability_lab'";
       } else {
-        evidenceQuery += " WHERE source_platform = ?";
+        evidenceQuery += " AND source_platform = ?";
         params.push(category);
       }
     }
     evidenceQuery += ' ORDER BY id DESC LIMIT 500';
     const evidenceList = db.prepare(evidenceQuery).all(...params);
 
-    const platformBreakdown = db.prepare('SELECT source_platform, COUNT(*) as count FROM evidence_nodes GROUP BY source_platform ORDER BY count DESC').all();
+    const platformBreakdown = db.prepare('SELECT source_platform, COUNT(*) as count FROM evidence_nodes WHERE source_date >= ? GROUP BY source_platform ORDER BY count DESC').all(minDate);
 
     res.json({
       status: 'ok',

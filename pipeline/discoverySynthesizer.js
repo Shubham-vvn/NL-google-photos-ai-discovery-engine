@@ -156,7 +156,7 @@ function retrieveEvidenceNodes(queryText, limit = 15) {
     .split(/\s+/)
     .filter(t => t.length > 2 && !['what', 'which', 'they', 'those', 'with', 'about', 'from', 'this', 'that'].includes(t));
 
-  let query = 'SELECT * FROM evidence_nodes WHERE 1=1';
+  let query = "SELECT * FROM evidence_nodes WHERE source_date >= '2024-01-01'";
   const params = [];
 
   if (tokens.length > 0) {
@@ -187,7 +187,7 @@ function retrieveEvidenceNodes(queryText, limit = 15) {
   if (items.length < 5) {
     const fallbackItems = db.prepare(`
       SELECT * FROM evidence_nodes 
-      WHERE relevance = 'relevant' 
+      WHERE relevance = 'relevant' AND source_date >= '2024-01-01'
       ORDER BY confidence DESC, id DESC 
       LIMIT ?
     `).all(limit);
